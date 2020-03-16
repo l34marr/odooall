@@ -1,0 +1,105 @@
+<t name="Homepage" t-name="website.homepage1">
+  <t t-call="website.layout">
+    <t t-set="pageName" t-value="'homepage'"/>
+    <div id="wrap" class="oe_structure">
+      <section class="s_banner parallax s_parallax_is_fixed pt96 pb96 s_parallax_no_overflow_hidden" data-scroll-background-ratio="1" data-name="Banner" style="background-image: none;">
+        <span class="s_parallax_bg oe_img_bg oe_custom_bg" style="background-image: url(&quot;https://www.360d.com.tw/images/hunter/banner.jpg&quot;); background-position: 88.45% 50.34%;"/>
+        <div class="container">
+          <div class="row s_nb_column_fixed">
+            <div class="bg-white jumbotron pb32 pt16 col-lg-6 rounded" data-name="Box">
+              <div class="row">
+                <div class="col-lg-12 s_title s_col_no_bgcolor" data-name="Title">
+                  <h1 style="font-size: 40px;">
+                    <b>
+                    Connecting You and Talents
+                    </b>
+                  </h1>
+                </div>
+                <div class="col-lg-12 pt8 pb32 s_col_no_bgcolor" data-name="Text">
+                  <div class="col-lg-12 s_btn pt16 pb16 text-center" data-name="Button">
+                    <a href="#" class="btn btn-epsilon rounded-circle" data-original-title="" title="" aria-describedby="tooltip208291">
+                      <font style="font-size: 24px;">Your Partner for Precise Talent Services</font>
+                    </a>
+                  </div>
+                  <p class="lead">
+                    <span style="color: rgb(51, 51, 51); font-size: 20px;">360d HR Consultancy provides comprehensive talent sourcing services, including headhunting and remote working. With the talent pool of various expertise and skillset, we have candidates meeting your requirement of job position for Data Scientist. Please contact us if you are interested in further progress and collaboration.</span>
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="s_text_image pt32 pb32" data-name="Image - Text">
+        <div class="container">
+          <div class="row align-items-center">
+            <div class="pt16 pb16 col-lg-5">
+              <img src="https://www.360d.com.tw/images/hunter/1.png" class="img img-fluid mx-auto" alt="Odoo • Image and Text" data-original-title="" title="" aria-describedby="tooltip452300"/>
+            </div>
+            <div class="pt16 pb24 col-lg-7">
+              <h2>
+                <b>
+                  <font style="font-size: 40px;">Brief Candidate CV</font>
+                </b>
+              </h2>
+              <p style="box-sizing: border-box; margin: 15px 10px 20px; display: block; margin-block-start: 0.1em; margin-block-end: 0.1em; margin-inline-start: 0px; margin-inline-end: 0px; font-size: 18px; color: rgb(51, 51, 51); line-height: 40px; font-family: 微軟正黑體, &quot;Noto Sans TC&quot;, sans-serif; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); text-decoration-style: initial; text-decoration-color: initial;"><img class="img-fluid o_we_custom_image" src="/web/image/384/chang.png" data-original-title="" title="" aria-describedby="tooltip971959"/>&amp;nbsp;</p>
+              <div class="s_btn text-left pt16 pb16" data-name="Button">
+                <a href="#" class="btn btn-outline-primary" data-original-title="" title="" aria-describedby="tooltip834121">Contact to Discover More</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="s_three_columns bg-200 pt32 pb32" data-name="Columns">
+        <div class="container">
+          <div class="row d-flex align-items-stretch">
+            <div class="s_col_no_bgcolor pt16 pb16 col-lg-6">
+              <div class="card bg-white">
+                <img class="card-img-top" src="/web/image/website.library_image_11" alt="Odoo - Sample 1 for three columns" data-original-title="" title="" aria-describedby="tooltip395134"/>
+                <div class="card-body">
+                  <h2>Strategical Consulting</h2>
+                  <p class="box" style="box-sizing: border-box; margin: 10px 10px 30px; display: block; margin-block-start: 0.1em; margin-block-end: 0.1em; margin-inline-start: 0px; margin-inline-end: 0px; font-size: 18px; color: rgb(51, 51, 51); background-color: rgb(242, 242, 242); padding: 20px; line-height: 40px; font-family: 微軟正黑體, &quot;Noto Sans TC&quot;, sans-serif; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration-style: initial; text-decoration-color: initial;">Return to the thinking of the origin of business essence and the strategic leadership assessment, we aim at "creating corporate competitiveness-achieving transformation and upgrading" as the goal of innovative value-added services; The starting point of services with high, broad and deep thinking is based on the premise of assisting enterprises to harvest more meaningful value creation and comprehensive effects.</p>
+                </div>
+              </div>
+            </div>
+            <div class="s_col_no_bgcolor pt16 pb16 col-lg-6">
+              <div class="card bg-white">
+                <img class="card-img-top" src="/web/image/website.library_image_13" alt="Odoo - Sample 2 for three columns"/>
+                <div class="card-body">
+                  <h2>Optimizing Human Resources</h2>
+                  <p class="box shot" style="box-sizing: border-box; margin: 10px 10px 30px; display: block; margin-block-start: 0.1em; margin-block-end: 0.1em; margin-inline-start: 0px; margin-inline-end: 0px; font-size: 18px; color: rgb(51, 51, 51); background-color: rgb(242, 242, 242); padding-top: 20px; padding-right: 20px; padding-bottom: 100px !important; padding-left: 20px; line-height: 40px; font-family: 微軟正黑體, &quot;Noto Sans TC&quot;, sans-serif; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration-style: initial; text-decoration-color: initial;">We provide highly confidential and personalized career development consulting services, using professional, objective and supporting perspectives, supplemented by scenario analysis and adaptive development, to promote the maximization of talent value, and then optimize the human resource value creation mechanism.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="s_text_image pt32 pb32" data-name="Image - Text">
+        <div class="container">
+          <div class="row align-items-center">
+            <div class="col-lg-6 pt16 pb16">
+              <img src="https://www.360d.com.tw/images/hunter/3.png" class="img img-fluid mx-auto" alt="Odoo • Image and Text" data-original-title="" title="" aria-describedby="tooltip208023"/>
+            </div>
+            <div class="col-lg-6 pt16 pb16">
+              <h2>Employer Branding Management</h2>
+              <p>
+                We provide branding consultancy on talent recruitment, strategic planning, and execution of talent acquisition and media promotion strategies, etc.
+                </p>
+              <div class="s_btn text-left pt16 pb16" data-name="Button">
+                <h2>ICT Outsourcing<br/></h2>
+                <p>
+                We provide professional partner recommendations in the field of IC and IT applications to create competitive advantages for you. With a cost-effective ROI, you get the best talent sourcing services and solutions.
+                </p>
+                <br/>
+                <h2>Work Permit Application<br/></h2>
+                <p>We assist companies to apply for legal employment documents and residency rights when hiring white-collar professionals of foreign nationality to Taiwan, so that companies can better attract global talents without worries, that enhance their international competitiveness.<br/></p>
+                <br/>
+                <a href="#" class="btn btn-outline-primary">Discover more</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+  </t>
+</t>
