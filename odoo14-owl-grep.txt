@@ -1,0 +1,533 @@
+Binary file ./.git/objects/pack/pack-e52201a24b1d9fb3d34108ae3b5083ac548b3ced.pack matches
+./addons/pos_hr/static/src/xml/CashierName.xml:    <t t-name="CashierName" t-inherit="point_of_sale.CashierName" t-inherit-mode="extension" owl="1">
+./addons/pos_hr/static/src/xml/LoginScreen.xml:    <t t-name="LoginScreen" owl="1">
+./addons/pos_hr/static/src/xml/HeaderLockButton.xml:    <t t-name="HeaderLockButton" owl="1">
+./addons/pos_hr/static/src/xml/Chrome.xml:    <t t-name="Chrome" t-inherit="point_of_sale.Chrome" t-inherit-mode="extension" owl="1">
+./addons/pos_hr/static/src/js/HeaderLockButton.js:    const { useState } = owl;
+./addons/pos_hr/static/src/js/useSelectEmployee.js:    const { Component } = owl;
+./addons/pos_six/static/src/xml/Chrome.xml:    <t t-name="Chrome" t-inherit="point_of_sale.Chrome" t-inherit-mode="extension" owl="1">
+./addons/pos_six/static/src/xml/BalanceButton.xml:    <t t-name="BalanceButton" owl="1">
+./addons/pos_restaurant/static/src/xml/ChromeWidgets/BackToFloorButton.xml:    <t t-name="BackToFloorButton" owl="1">
+./addons/pos_restaurant/static/src/xml/TipReceipt.xml:    <t t-name="TipReceipt" owl="1">
+./addons/pos_restaurant/static/src/xml/Chrome.xml:    <t t-name="Chrome" t-inherit="point_of_sale.Chrome" t-inherit-mode="extension" owl="1">
+./addons/pos_restaurant/static/src/xml/Screens/ProductScreen/ControlButtons/SplitBillButton.xml:    <t t-name="SplitBillButton" owl="1">
+./addons/pos_restaurant/static/src/xml/Screens/ProductScreen/ControlButtons/OrderlineNoteButton.xml:    <t t-name="OrderlineNoteButton" owl="1">
+./addons/pos_restaurant/static/src/xml/Screens/ProductScreen/ControlButtons/TableGuestsButton.xml:    <t t-name="TableGuestsButton" owl="1">
+./addons/pos_restaurant/static/src/xml/Screens/ProductScreen/ControlButtons/PrintBillButton.xml:    <t t-name="PrintBillButton" owl="1">
+./addons/pos_restaurant/static/src/xml/Screens/ProductScreen/ControlButtons/SubmitOrderButton.xml:    <t t-name="SubmitOrderButton" owl="1">
+./addons/pos_restaurant/static/src/xml/Screens/ProductScreen/ControlButtons/TransferOrderButton.xml:    <t t-name="TransferOrderButton" owl="1">
+./addons/pos_restaurant/static/src/xml/Screens/ProductScreen/Orderline.xml:    <t t-name="Orderline" t-inherit="point_of_sale.Orderline" t-inherit-mode="extension" owl="1">
+./addons/pos_restaurant/static/src/xml/Screens/TicketScreen.xml:    <t t-name="TicketScreen" t-inherit="point_of_sale.TicketScreen" t-inherit-mode="extension" owl="1">
+./addons/pos_restaurant/static/src/xml/Screens/TicketScreen.xml:    <t t-name="TipCell" owl="1">
+./addons/pos_restaurant/static/src/xml/Screens/PaymentScreen/PaymentScreen.xml:    <t t-name="PaymentScreen" t-inherit="point_of_sale.PaymentScreen" t-inherit-mode="extension" owl="1">
+./addons/pos_restaurant/static/src/xml/Screens/PaymentScreen/PaymentScreenElectronicPayment.xml:    <t t-name="PaymentScreenElectronicPayment" t-inherit="point_of_sale.PaymentScreenElectronicPayment" t-inherit-mode="extension" owl="1">
+./addons/pos_restaurant/static/src/xml/Screens/OrderManagementScreen/OrderList.xml:    <t t-name="OrderList" t-inherit="point_of_sale.OrderList" t-inherit-mode="extension" owl="1">
+./addons/pos_restaurant/static/src/xml/Screens/OrderManagementScreen/OrderRow.xml:    <t t-name="OrderRow" t-inherit="point_of_sale.OrderRow" t-inherit-mode="extension" owl="1">
+./addons/pos_restaurant/static/src/xml/Screens/SplitBillScreen/SplitBillScreen.xml:    <t t-name="SplitBillScreen" owl="1">
+./addons/pos_restaurant/static/src/xml/Screens/SplitBillScreen/SplitOrderline.xml:    <t t-name="SplitOrderline" owl="1">
+./addons/pos_restaurant/static/src/xml/Screens/FloorScreen/EditableTable.xml:    <t t-name="EditableTable" owl="1">
+./addons/pos_restaurant/static/src/xml/Screens/FloorScreen/TableWidget.xml:    <t t-name="TableWidget" owl="1">
+./addons/pos_restaurant/static/src/xml/Screens/FloorScreen/FloorScreen.xml:    <t t-name="FloorScreen" owl="1">
+./addons/pos_restaurant/static/src/xml/Screens/FloorScreen/EditBar.xml:    <t t-name="EditBar" owl="1">
+./addons/pos_restaurant/static/src/xml/Screens/ReceiptScreen/OrderReceipt.xml:    <t t-name="OrderReceipt" t-inherit="point_of_sale.OrderReceipt" t-inherit-mode="extension" owl="1">
+./addons/pos_restaurant/static/src/xml/Screens/BillScreen.xml:    <t t-name="BillScreen" owl="1">
+./addons/pos_restaurant/static/src/xml/Screens/TipScreen.xml:    <t t-name="pos_restaurant.TipScreen" owl="1">
+./addons/pos_restaurant/static/src/xml/Resizeable.xml:    <t t-name="Resizeable" owl="1">
+./addons/pos_restaurant/static/src/js/Resizeable.js:    const { useExternalListener } = owl.hooks;
+./addons/pos_restaurant/static/src/js/Screens/TicketScreen.js:    const { useState, useContext } = owl.hooks;
+./addons/pos_restaurant/static/src/js/Screens/SplitBillScreen/SplitBillScreen.js:    const { useState } = owl.hooks;
+./addons/pos_restaurant/static/src/js/Screens/FloorScreen/EditableTable.js:    const { onPatched, onMounted } = owl.hooks;
+./addons/pos_restaurant/static/src/js/Screens/FloorScreen/EditBar.js:    const { useState } = owl.hooks;
+./addons/pos_restaurant/static/src/js/Screens/FloorScreen/FloorScreen.js:    const { debounce } = owl.utils;
+./addons/pos_restaurant/static/src/js/Screens/FloorScreen/FloorScreen.js:    const { useState, useRef } = owl.hooks;
+./addons/pos_restaurant/static/src/js/Screens/TipScreen.js:    const { useContext } = owl.hooks;
+./addons/pos_restaurant/static/tests/unit/test_FloorScreen.js:    const { xml } = owl.tags;
+./addons/pos_restaurant/static/tests/unit/test_FloorScreen.js:    const { useRef } = owl.hooks;
+./addons/hr/static/src/js/chat.js:    const { Component } = owl;
+./addons/hr/static/src/js/many2one_avatar_employee.js:    const { Component } = owl;
+./addons/hr/static/tests/standalone_m2o_avatar_employee_tests.js:    const { xml } = owl.tags;
+./addons/hr/static/tests/standalone_m2o_avatar_employee_tests.js:                Renderer: owlRenderer,
+./addons/sale_product_configurator/static/src/js/product_configurator_modal.js:                // Notifies OwlDialog to adjust focus/active properties on owl dialogs
+./addons/web/static/src/xml/pivot.xml:    <div t-name="web.PivotRenderer" class="o_pivot" owl="1">
+./addons/web/static/src/xml/pivot.xml:    <t t-name="web.PivotHeader" owl="1">
+./addons/web/static/src/xml/pivot.xml:    <t t-name="web.PivotMeasure" owl="1">
+./addons/web/static/src/xml/pivot.xml:    <div t-name="web.PivotGroupBySelection" class="dropdown" owl="1">
+./addons/web/static/src/xml/search_panel.xml:<t t-name="web.SearchPanel" owl="1">
+./addons/web/static/src/xml/search_panel.xml:<t t-name="web.SearchPanel.Category" owl="1">
+./addons/web/static/src/xml/search_panel.xml:<t t-name="web.SearchPanel.FiltersGroup" owl="1">
+./addons/web/static/src/xml/base.xml:<t t-name="web.ControlPanel" owl="1">
+./addons/web/static/src/xml/base.xml:<t t-name="web.ControlPanelX2Many" owl="1">
+./addons/web/static/src/xml/base.xml:<t t-name="web.CustomCheckbox" owl="1">
+./addons/web/static/src/xml/base.xml:<t t-name="web.CustomFileInput" owl="1">
+./addons/web/static/src/xml/base.xml:<t t-name="web.DatePicker" owl="1">
+./addons/web/static/src/xml/base.xml:<t t-name="web.DialogButton.tooltip" owl="1">
+./addons/web/static/src/xml/base.xml:<t t-name="web.DropdownMenu" owl="1">
+./addons/web/static/src/xml/base.xml:<t t-name="web.FavoriteMenu" t-inherit="web.DropdownMenu" t-inherit-mode="primary" owl="1">
+./addons/web/static/src/xml/base.xml:<t t-name="web.FilterMenu" t-inherit="web.DropdownMenu" t-inherit-mode="primary" owl="1">
+./addons/web/static/src/xml/base.xml:<t t-name="web.GroupByMenu" t-inherit="web.DropdownMenu" t-inherit-mode="primary" owl="1">
+./addons/web/static/src/xml/base.xml:<t t-name="web.DropdownMenuItem" owl="1">
+./addons/web/static/src/xml/base.xml:<t t-name="web.CustomFavoriteItem" owl="1">
+./addons/web/static/src/xml/base.xml:<t t-name="web.CustomFilterItem" owl="1">
+./addons/web/static/src/xml/base.xml:<t t-name="web.CustomGroupByItem" owl="1">
+./addons/web/static/src/xml/base.xml:<t t-name="web.OwlDialog" owl="1">
+./addons/web/static/src/xml/base.xml:<t t-name="Popover" owl="1">
+./addons/web/static/src/xml/base.xml:<t t-name="web.Pager" owl="1">
+./addons/web/static/src/xml/base.xml:<t t-name="web.SearchBar" owl="1">
+./addons/web/static/src/xml/base.xml:<t t-name="web.ActionMenus" owl="1">
+./addons/web/static/src/xml/base.xml:<t t-name="web.ViewSwitcherButton" owl="1">
+./addons/web/static/src/xml/base.xml:<div t-name="web.NoContentHelper" class="o_view_nocontent" role="alert" owl="1">
+./addons/web/static/src/xml/base.xml:<div t-name="web.ActionHelper" class="o_view_nocontent" owl="1">
+./addons/web/static/src/xml/fields.xml:    <t t-name="web.FieldBoolean" owl="1">
+./addons/web/static/src/xml/fields.xml:    <t t-name="web.FieldBadge" owl="1">
+./addons/web/static/src/js/component_extension.js:     * Add a new method to owl Components to ensure that no performed RPC is
+./addons/web/static/src/js/component_extension.js:    owl.Component.prototype.rpc = function () {
+./addons/web/static/src/js/component_extension.js:     * Patch owl.Component.__trigger method to call a hook that adds a listener
+./addons/web/static/src/js/component_extension.js:    const originalTrigger = owl.Component.prototype.__trigger;
+./addons/web/static/src/js/component_extension.js:    owl.Component.prototype.__trigger = function (component, evType, payload) {
+./addons/web/static/src/js/model.js:    const { Component, core } = owl;
+./addons/web/static/src/js/model.js:     * is to offer something similar to an owl store but with no automatic
+./addons/web/static/src/js/model.js:         * @see Context.__notifyComponents() in owl.js for explanation
+./addons/web/static/src/js/model.js:     * This is more or less the hook 'useContextWithCB' from owl only slightly
+./addons/web/static/src/js/views/abstract_controller.js:        if (!(this.renderer instanceof owl.Component)) {
+./addons/web/static/src/js/views/abstract_controller.js:        if (!(this.renderer instanceof owl.Component)) {
+./addons/web/static/src/js/views/abstract_controller.js:        if (this.renderer instanceof owl.Component) {
+./addons/web/static/src/js/views/abstract_controller.js:        if (this.renderer instanceof owl.Component) {
+./addons/web/static/src/js/views/abstract_renderer.js:        // FIXME: retrieve owl qweb instance via the env set on Component s.t.
+./addons/web/static/src/js/views/abstract_renderer.js:        // won't be necessary as soon as this will be written in owl.
+./addons/web/static/src/js/views/abstract_renderer.js:        const owlQWeb = owl.Component.env.qweb;
+./addons/web/static/src/js/views/abstract_renderer.js:        template.innerHTML = owlQWeb.renderToString(templateName, context);
+./addons/web/static/src/js/views/abstract_view.js:const { Component } = owl;
+./addons/web/static/src/js/views/pivot/pivot_renderer.js:    const { useExternalListener, useState, onMounted, onPatched } = owl.hooks;
+./addons/web/static/src/js/views/search_panel.js:    const { Component, hooks } = owl;
+./addons/web/static/src/js/views/basic/basic_renderer.js:        const legacy = !(Widget.prototype instanceof owl.Component);
+./addons/web/static/src/js/views/abstract_renderer_owl.js:    class AbstractRenderer extends owl.Component {
+./addons/web/static/src/js/owl_compatibility.js:    const { Component, hooks, tags } = owl;
+./addons/web/static/src/js/common_env.js:        qweb: new owl.QWeb({ translateFn: _t }),
+./addons/web/static/src/js/fields/abstract_field_owl.js:    const { onMounted, onPatched } = owl.hooks;
+./addons/web/static/src/js/fields/abstract_field_owl.js:    class AbstractField extends owl.Component {
+./addons/web/static/src/js/fields/abstract_field_owl.js:         * This function should be removed when BasicRenderer will be rewritten in owl
+./addons/web/static/src/js/fields/abstract_field_owl.js:         * This function should be removed when BasicRenderer will be rewritten in owl
+./addons/web/static/src/js/fields/abstract_field_owl.js:         * This function should be removed when BasicRenderer will be rewritten in owl
+./addons/web/static/src/js/fields/abstract_field_owl.js:         * This function should be removed when BasicRenderer will be rewritten in owl
+./addons/web/static/src/js/fields/field_registry.js:        (value) => !(value.prototype instanceof owl.Component)
+./addons/web/static/src/js/fields/field_registry_owl.js:        (value) => value.prototype instanceof owl.Component
+./addons/web/static/src/js/fields/relational_fields.js:const { escape } = owl.utils;
+./addons/web/static/src/js/control_panel/search_bar.js:    const { Component, hooks } = owl;
+./addons/web/static/src/js/control_panel/control_panel.js:    const { Component, hooks } = owl;
+./addons/web/static/src/js/control_panel/custom_favorite_item.js:    const { useRef } = owl.hooks;
+./addons/web/static/src/js/main.js:    owl.config.mode = env.isDebug() ? "dev" : "prod";
+./addons/web/static/src/js/main.js:    owl.Component.env = env;
+./addons/web/static/src/js/main.js:    // add the owl templates to the environment and start the web client
+./addons/web/static/src/js/main.js:        await owl.utils.whenReady();
+./addons/web/static/src/js/components/dropdown_menu.js:    const { Component, hooks } = owl;
+./addons/web/static/src/js/components/pager.js:    const { Component, hooks } = owl;
+./addons/web/static/src/js/components/dropdown_menu_item.js:    const { Component, hooks } = owl;
+./addons/web/static/src/js/components/datepicker.js:    const { Component, hooks } = owl;
+./addons/web/static/src/js/components/action_menus.js:    const { Component } = owl;
+./addons/web/static/src/js/components/custom_checkbox.js:    const { Component } = owl;
+./addons/web/static/src/js/components/custom_file_input.js:    const { Component, hooks } = owl;
+./addons/web/static/src/js/chrome/abstract_action.js:            env: owl.Component.env,
+./addons/web/static/src/js/core/owl_dialog.js:    const { Component, hooks, misc } = owl;
+./addons/web/static/src/js/core/custom_hooks.js:    const { Component, hooks } = owl;
+./addons/web/static/src/js/core/session.js:                const owlTemplates = [];
+./addons/web/static/src/js/core/session.js:                    owlTemplates.push(child.outerHTML);
+./addons/web/static/src/js/core/utils.js:     * Checks if a class is an extension of owl.Component.
+./addons/web/static/src/js/core/utils.js:        return value.prototype instanceof owl.Component;
+./addons/web/static/src/js/core/popover.js:    const { Component, hooks, misc, QWeb } = owl;
+./addons/web/static/src/js/core/dialog.js:            // Notifies OwlDialog to adjust focus/active properties on owl dialogs
+./addons/web/static/src/js/core/dialog.js:        // Notifies OwlDialog to adjust focus/active properties on owl dialogs.
+./addons/web/static/tests/main_tests.js:    owl.config.mode = "dev";
+./addons/web/static/tests/component_extension_tests.js:    const { Component, tags } = owl;
+./addons/web/static/tests/views/abstract_controller_tests.js:const { xml } = owl.tags;
+./addons/web/static/tests/views/abstract_controller_tests.js:            Renderer: owlRenderer,
+./addons/web/static/tests/views/list_tests.js:                    // The current environment (not owl's, but the current action's)
+./addons/web/static/tests/views/list_tests.js:                    // The current environment (not owl's, but the current action's)
+./addons/web/static/tests/views/list_tests.js:        MyField.template = owl.tags.xml`<span>Hello World</span>`;
+./addons/web/static/tests/views/list_tests.js:    QUnit.test('editable list view: multi edition of owl field component', async function (assert) {
+./addons/web/static/tests/views/list_tests.js:        // this test could be removed as soon as all field widgets will be written in owl
+./addons/web/static/tests/owl_compatibility_tests.js:    const { Component, tags, useState } = owl;
+./addons/web/static/tests/helpers/test_utils_create.js:    const { Component } = owl;
+./addons/web/static/tests/helpers/test_utils_create.js:    const { useRef, useState } = owl.hooks;
+./addons/web/static/tests/helpers/test_utils_create.js:    const { xml } = owl.tags;
+./addons/web/static/tests/helpers/test_env.js:            qweb = new owl.QWeb({ templates: session.owlTemplates });
+./addons/web/static/tests/helpers/test_env.js:     * Before each test, we want owl.Component.env to be a fresh test environment.
+./addons/web/static/tests/helpers/test_env.js:        owl.Component.env = makeTestEnvironment();
+./addons/web/static/tests/helpers/test_utils_mock.js:    // set the test env on owl Component
+./addons/web/static/tests/helpers/test_utils_mock.js:    const env = owl.Component.env;
+./addons/web/static/tests/helpers/test_utils_dom.js:        if (target instanceof owl.Component || target instanceof Widget) {
+./addons/web/static/tests/helpers/qunit_asserts.js:        const el = w instanceof Widget || w instanceof owl.Component ? w.el :
+./addons/web/static/tests/helpers/qunit_asserts.js:        const el = w instanceof Widget || w instanceof owl.Component ? w.el :
+./addons/web/static/tests/helpers/qunit_asserts.js:        if (w instanceof owl.Component) {
+./addons/web/static/tests/components/dropdown_menu_tests.js:            class Parent extends owl.Component {
+./addons/web/static/tests/components/dropdown_menu_tests.js:                    this.state = owl.useState(props);
+./addons/web/static/tests/components/dropdown_menu_tests.js:            Parent.template = owl.tags.xml`
+./addons/web/static/tests/components/dropdown_menu_tests.js:            class Parent extends owl.Component {
+./addons/web/static/tests/components/dropdown_menu_tests.js:            Parent.template = owl.tags.xml`
+./addons/web/static/tests/chrome/action_manager_tests.js:const { xml } = owl.tags;
+./addons/web/static/tests/chrome/action_manager_tests.js:        class CustomControlPanel extends owl.Component {}
+./addons/web/static/tests/core/owl_dialog_tests.js:    const { Component, tags, useState } = owl;
+./addons/web/static/tests/core/owl_dialog_tests.js:            // existing dialogs (3 owl and 2 legacy).
+./addons/web/static/tests/core/owl_dialog_tests.js:            // Reactivity with owl dialogs
+./addons/web/static/tests/core/owl_dialog_tests.js:        const owlIndexBefore = getComputedStyle(document.querySelector('.o_dialog .modal')).zIndex;
+./addons/web/static/tests/core/owl_dialog_tests.js:            "z-index of the owl dialog should be incremented since the active modal was destroyed");
+./addons/web/static/tests/core/popover_tests.js:    const { Component, tags, hooks } = owl;
+./addons/web/static/lib/owl/owl.js:     * Fibers capture all that necessary information, which is critical to owl
+./addons/web/static/lib/owl/owl.js:                message += `\nMaybe the DOM is not ready yet? (in that case, you can use owl.utils.whenReady)`;
+./addons/web/static/lib/owl/owl.js:     * this file, we export all public owl elements.
+./addons/l10n_in_pos/static/src/xml/pos_receipt.xml:    <t t-name="OrderReceipt" t-inherit="point_of_sale.OrderReceipt" t-inherit-mode="extension" owl="1">
+./addons/l10n_co_pos/static/src/xml/pos.xml:    <t t-name="OrderReceipt" t-inherit="point_of_sale.OrderReceipt" t-inherit-mode="extension" owl="1">
+./addons/pos_mercury/static/src/xml/PaymentTransactionPopup.xml:    <t t-name="PaymentTransactionPopup" owl="1">
+./addons/pos_mercury/static/src/xml/OrderReceipt.xml:    <t t-name="pos_mercury.OrderReceipt" t-inherit="point_of_sale.OrderReceipt" t-inherit-mode="extension" owl="1">
+./addons/pos_mercury/static/src/xml/PaymentScreenPaymentLines.xml:    <t t-name="pos_mercury.PaymentScreenPaymentLines" t-inherit="point_of_sale.PaymentScreenPaymentLines" t-inherit-mode="extension" owl="1">
+./addons/pos_mercury/static/src/js/PaymentTransactionPopup.js:    const { useState } = owl.hooks;
+./addons/google_drive/static/src/xml/gdrive.xml:    <t t-name="GoogleDriveMenu" owl="1">
+./addons/pos_discount/static/src/xml/DiscountButton.xml:    <t t-name="DiscountButton" owl="1">
+./addons/account/static/src/xml/grouped_view_widget.xml:    <div t-name="account.GroupedListTemplate" owl="1" class="d-block">
+./addons/account/static/src/xml/grouped_view_widget.xml:    <tbody t-name="account.GroupedItemsTemplate" owl="1">
+./addons/account/static/src/xml/grouped_view_widget.xml:    <tr t-name="account.GroupedItemTemplate" owl="1">
+./addons/account/static/src/xml/account_resequence.xml:    <div t-name="account.ResequenceRenderer" owl="1" class="d-block">
+./addons/account/static/src/xml/account_resequence.xml:    <t t-name="account.ResequenceChangeLine" owl="1">
+./addons/account/static/src/js/account_resequence_field.js:const { Component } = owl;
+./addons/account/static/src/js/account_resequence_field.js:const { useState } = owl.hooks;
+./addons/account/static/src/js/grouped_view_widget.js:const { Component } = owl;
+./addons/account/static/src/js/grouped_view_widget.js:const { useState } = owl.hooks;
+./addons/base_import/static/src/xml/base_import.xml:    <t t-name="base_import.ImportMenu" owl="1">
+./addons/l10n_fr_pos_cert/static/src/xml/OrderReceipt.xml:    <t t-name="OrderReceipt" t-inherit="point_of_sale.OrderReceipt" t-inherit-mode="extension" owl="1">
+./addons/board/static/src/xml/board.xml:<t t-name="AddToBoardMenu" owl="1">
+./addons/board/static/src/js/add_to_board_menu.js:    const { useState } = owl.hooks;
+./addons/point_of_sale/static/src/xml/Popups/OfflineErrorPopup.xml:    <t t-name="OfflineErrorPopup" owl="1">
+./addons/point_of_sale/static/src/xml/Popups/ProductConfiguratorPopup.xml:    <t t-name="ProductConfiguratorPopup" owl="1">
+./addons/point_of_sale/static/src/xml/Popups/ProductConfiguratorPopup.xml:    <t t-name="RadioProductAttribute" owl="1">
+./addons/point_of_sale/static/src/xml/Popups/ProductConfiguratorPopup.xml:    <t t-name="SelectProductAttribute" owl="1">
+./addons/point_of_sale/static/src/xml/Popups/ProductConfiguratorPopup.xml:    <t t-name="ColorProductAttribute" owl="1">
+./addons/point_of_sale/static/src/xml/Popups/ErrorTracebackPopup.xml:    <t t-name="ErrorTracebackPopup" owl="1">
+./addons/point_of_sale/static/src/xml/Popups/TextInputPopup.xml:    <t t-name="TextInputPopup" owl="1">
+./addons/point_of_sale/static/src/xml/Popups/OrderImportPopup.xml:    <t t-name="OrderImportPopup" owl="1">
+./addons/point_of_sale/static/src/xml/Popups/ErrorPopup.xml:    <t t-name="ErrorPopup" owl="1">
+./addons/point_of_sale/static/src/xml/Popups/TextAreaPopup.xml:    <t t-name="TextAreaPopup" owl="1">
+./addons/point_of_sale/static/src/xml/Popups/SelectionPopup.xml:    <t t-name="SelectionPopup" owl="1">
+./addons/point_of_sale/static/src/xml/Popups/EditListInput.xml:    <t t-name="EditListInput" owl="1">
+./addons/point_of_sale/static/src/xml/Popups/NumberPopup.xml:    <t t-name="NumberPopup" owl="1">
+./addons/point_of_sale/static/src/xml/Popups/EditListPopup.xml:    <t t-name="EditListPopup" owl="1">
+./addons/point_of_sale/static/src/xml/Popups/ConfirmPopup.xml:    <t t-name="ConfirmPopup" owl="1">
+./addons/point_of_sale/static/src/xml/Popups/ErrorBarcodePopup.xml:    <t t-name="ErrorBarcodePopup" owl="1">
+./addons/point_of_sale/static/src/xml/ChromeWidgets/CashierName.xml:    <t t-name="CashierName" owl="1">
+./addons/point_of_sale/static/src/xml/ChromeWidgets/ProxyStatus.xml:    <t t-name="ProxyStatus" owl="1">
+./addons/point_of_sale/static/src/xml/ChromeWidgets/HeaderButton.xml:    <t t-name="HeaderButton" owl="1">
+./addons/point_of_sale/static/src/xml/ChromeWidgets/DebugWidget.xml:    <t t-name="DebugWidget" owl="1">
+./addons/point_of_sale/static/src/xml/ChromeWidgets/ClientScreenButton.xml:    <t t-name="ClientScreenButton" owl="1">
+./addons/point_of_sale/static/src/xml/ChromeWidgets/OrderManagementButton.xml:    <t t-name="OrderManagementButton" owl="1">
+./addons/point_of_sale/static/src/xml/ChromeWidgets/SyncNotification.xml:    <t t-name="SyncNotification" owl="1">
+./addons/point_of_sale/static/src/xml/ChromeWidgets/SaleDetailsButton.xml:    <t t-name="SaleDetailsButton" owl="1">
+./addons/point_of_sale/static/src/xml/ChromeWidgets/TicketButton.xml:    <t t-name="TicketButton" owl="1">
+./addons/point_of_sale/static/src/xml/Misc/Draggable.xml:    <t t-name="Draggable" owl="1">
+./addons/point_of_sale/static/src/xml/Misc/SearchBar.xml:    <t t-name="point_of_sale.SearchBar" owl="1">
+./addons/point_of_sale/static/src/xml/Misc/NotificationSound.xml:    <t t-name="NotificationSound" owl="1">
+./addons/point_of_sale/static/src/xml/Misc/MobileOrderWidget.xml:    <t t-name="MobileOrderWidget" owl="1">
+./addons/point_of_sale/static/src/xml/Chrome.xml:    <t t-name="Chrome" owl="1">
+./addons/point_of_sale/static/src/xml/Screens/ProductScreen/CashBoxOpening.xml:    <t t-name="CashBoxOpening" owl="1">
+./addons/point_of_sale/static/src/xml/Screens/ProductScreen/ProductItem.xml:    <t t-name="ProductItem" owl="1">
+./addons/point_of_sale/static/src/xml/Screens/ProductScreen/CategorySimpleButton.xml:    <t t-name="CategorySimpleButton" owl="1">
+./addons/point_of_sale/static/src/xml/Screens/ProductScreen/ControlButtons/SetPricelistButton.xml:    <t t-name="SetPricelistButton" owl="1">
+./addons/point_of_sale/static/src/xml/Screens/ProductScreen/ControlButtons/SetFiscalPositionButton.xml:    <t t-name="SetFiscalPositionButton" owl="1">
+./addons/point_of_sale/static/src/xml/Screens/ProductScreen/NumpadWidget.xml:    <t t-name="NumpadWidget" owl="1">
+./addons/point_of_sale/static/src/xml/Screens/ProductScreen/Orderline.xml:    <t t-name="Orderline" owl="1">
+./addons/point_of_sale/static/src/xml/Screens/ProductScreen/ProductsWidgetControlPanel.xml:    <t t-name="ProductsWidgetControlPanel" owl="1">
+./addons/point_of_sale/static/src/xml/Screens/ProductScreen/OrderSummary.xml:    <t t-name="OrderSummary" owl="1">
+./addons/point_of_sale/static/src/xml/Screens/ProductScreen/ProductList.xml:    <t t-name="ProductList" owl="1">
+./addons/point_of_sale/static/src/xml/Screens/ProductScreen/CategoryButton.xml:    <t t-name="CategoryButton" owl="1">
+./addons/point_of_sale/static/src/xml/Screens/ProductScreen/OrderWidget.xml:    <t t-name="OrderWidget" owl="1">
+./addons/point_of_sale/static/src/xml/Screens/ProductScreen/ProductsWidget.xml:    <t t-name="ProductsWidget" owl="1">
+./addons/point_of_sale/static/src/xml/Screens/ProductScreen/CategoryBreadcrumb.xml:    <t t-name="CategoryBreadcrumb" owl="1">
+./addons/point_of_sale/static/src/xml/Screens/ProductScreen/HomeCategoryBreadcrumb.xml:    <t t-name="HomeCategoryBreadcrumb" owl="1">
+./addons/point_of_sale/static/src/xml/Screens/ProductScreen/ProductScreen.xml:    <t t-name="ProductScreen" owl="1">
+./addons/point_of_sale/static/src/xml/Screens/ProductScreen/ActionpadWidget.xml:    <t t-name="ActionpadWidget" owl="1">
+./addons/point_of_sale/static/src/xml/Screens/PaymentScreen/PaymentScreenStatus.xml:<t t-name="PaymentScreenStatus" owl="1">
+./addons/point_of_sale/static/src/xml/Screens/PaymentScreen/PaymentScreen.xml:    <t t-name="PaymentScreen" owl="1">
+./addons/point_of_sale/static/src/xml/Screens/PaymentScreen/PaymentScreenElectronicPayment.xml:    <t t-name="PaymentScreenElectronicPayment" owl="1">
+./addons/point_of_sale/static/src/xml/Screens/PaymentScreen/PSNumpadInputButton.xml:    <t t-name="PSNumpadInputButton" owl="1">
+./addons/point_of_sale/static/src/xml/Screens/PaymentScreen/PaymentMethodButton.xml:    <t t-name="PaymentMethodButton" owl="1">
+./addons/point_of_sale/static/src/xml/Screens/PaymentScreen/PaymentScreenNumpad.xml:    <t t-name="PaymentScreenNumpad" owl="1">
+./addons/point_of_sale/static/src/xml/Screens/PaymentScreen/PaymentScreenPaymentLines.xml:    <t t-name="PaymentScreenPaymentLines" owl="1">
+./addons/point_of_sale/static/src/xml/Screens/ScaleScreen/ScaleScreen.xml:    <t t-name="ScaleScreen" owl="1">
+./addons/point_of_sale/static/src/xml/Screens/OrderManagementScreen/OrderManagementScreen.xml:    <t t-name="OrderManagementScreen" owl="1">
+./addons/point_of_sale/static/src/xml/Screens/OrderManagementScreen/MobileOrderManagementScreen.xml:    <div t-name="MobileOrderManagementScreen" class="screen-full-width" owl="1">
+./addons/point_of_sale/static/src/xml/Screens/OrderManagementScreen/ControlButtons/InvoiceButton.xml:    <t t-name="InvoiceButton" owl="1">
+./addons/point_of_sale/static/src/xml/Screens/OrderManagementScreen/ControlButtons/ReprintReceiptButton.xml:    <t t-name="ReprintReceiptButton" owl="1">
+./addons/point_of_sale/static/src/xml/Screens/OrderManagementScreen/OrderList.xml:    <t t-name="OrderList" owl="1">
+./addons/point_of_sale/static/src/xml/Screens/OrderManagementScreen/ReprintReceiptScreen.xml:    <t t-name="ReprintReceiptScreen" owl="1">
+./addons/point_of_sale/static/src/xml/Screens/OrderManagementScreen/OrderManagementControlPanel.xml:    <t t-name="OrderManagementControlPanel" owl="1">
+./addons/point_of_sale/static/src/xml/Screens/OrderManagementScreen/OrderlineDetails.xml:    <t t-name="OrderlineDetails" owl="1">
+./addons/point_of_sale/static/src/xml/Screens/OrderManagementScreen/OrderRow.xml:    <t t-name="OrderRow" owl="1">
+./addons/point_of_sale/static/src/xml/Screens/OrderManagementScreen/OrderDetails.xml:    <t t-name="OrderDetails" owl="1">
+./addons/point_of_sale/static/src/xml/Screens/TicketScreen/TicketScreen.xml:    <t t-name="TicketScreen" owl="1">
+./addons/point_of_sale/static/src/xml/Screens/ReceiptScreen/OrderReceipt.xml:    <t t-name="OrderReceipt" owl="1">
+./addons/point_of_sale/static/src/xml/Screens/ReceiptScreen/WrappedProductNameLines.xml:    <t t-name="WrappedProductNameLines" owl="1">
+./addons/point_of_sale/static/src/xml/Screens/ReceiptScreen/ReceiptScreen.xml:    <t t-name="ReceiptScreen" owl="1">
+./addons/point_of_sale/static/src/xml/Screens/ClientListScreen/ClientDetailsEdit.xml:    <t t-name="ClientDetailsEdit" owl="1">
+./addons/point_of_sale/static/src/xml/Screens/ClientListScreen/ClientLine.xml:    <t t-name="ClientLine" owl="1">
+./addons/point_of_sale/static/src/xml/Screens/ClientListScreen/ClientListScreen.xml:    <t t-name="ClientListScreen" owl="1">
+./addons/point_of_sale/static/src/xml/SaleDetailsReport.xml:    <t t-name="SaleDetailsReport" owl="1">
+./addons/point_of_sale/static/src/js/Popups/SelectionPopup.js:    const { useState } = owl.hooks;
+./addons/point_of_sale/static/src/js/Popups/EditListPopup.js:    const { useState } = owl.hooks;
+./addons/point_of_sale/static/src/js/Popups/AbstractAwaitablePopup.js:    const { useExternalListener } = owl.hooks;
+./addons/point_of_sale/static/src/js/Popups/AbstractAwaitablePopup.js:     * ConcretePopup.template = owl.tags.xml`
+./addons/point_of_sale/static/src/js/Popups/NumberPopup.js:    const { useState } = owl;
+./addons/point_of_sale/static/src/js/Popups/TextAreaPopup.js:    const { useState, useRef } = owl.hooks;
+./addons/point_of_sale/static/src/js/Popups/TextInputPopup.js:    const { useState, useRef } = owl.hooks;
+./addons/point_of_sale/static/src/js/Popups/ProductConfiguratorPopup.js:    const { useState, useSubEnv } = owl.hooks;
+./addons/point_of_sale/static/src/js/ChromeWidgets/ClientScreenButton.js:    const { useState } = owl;
+./addons/point_of_sale/static/src/js/ChromeWidgets/HeaderButton.js:    const { useState } = owl;
+./addons/point_of_sale/static/src/js/ChromeWidgets/ProxyStatus.js:    const { useState } = owl;
+./addons/point_of_sale/static/src/js/ChromeWidgets/SyncNotification.js:    const { useState } = owl;
+./addons/point_of_sale/static/src/js/ChromeWidgets/DebugWidget.js:    const { useState } = owl;
+./addons/point_of_sale/static/src/js/ChromeWidgets/DebugWidget.js:    const { useRef } = owl.hooks;
+./addons/point_of_sale/static/src/js/Chrome.js:    const { useState, useRef, useContext } = owl.hooks;
+./addons/point_of_sale/static/src/js/Chrome.js:    const { debounce } = owl.utils;
+./addons/point_of_sale/static/src/js/custom_hooks.js:    const { Component } = owl;
+./addons/point_of_sale/static/src/js/custom_hooks.js:    const { onMounted, onPatched, onWillUnmount } = owl.hooks;
+./addons/point_of_sale/static/src/js/main.js:    owl.config.mode = env.isDebug() ? 'dev' : 'prod';
+./addons/point_of_sale/static/src/js/main.js:    owl.Component.env = env;
+./addons/point_of_sale/static/src/js/main.js:        const updateEnv = owl.utils.debounce(() => {
+./addons/point_of_sale/static/src/js/main.js:        env.bus = new owl.core.EventBus();
+./addons/point_of_sale/static/src/js/main.js:        await owl.utils.whenReady();
+./addons/point_of_sale/static/src/js/Misc/Draggable.js:    const { useExternalListener } = owl.hooks;
+./addons/point_of_sale/static/src/js/Misc/SearchBar.js:    const { useState, useExternalListener } = owl.hooks;
+./addons/point_of_sale/static/src/js/Misc/NumberBuffer.js:    const { Component } = owl;
+./addons/point_of_sale/static/src/js/Misc/NumberBuffer.js:    const { EventBus } = owl.core;
+./addons/point_of_sale/static/src/js/Misc/NumberBuffer.js:    const { onMounted, onWillUnmount, useExternalListener } = owl.hooks;
+./addons/point_of_sale/static/src/js/Misc/AbstractReceiptScreen.js:    const { useRef } = owl.hooks;
+./addons/point_of_sale/static/src/js/utils.js:    const { EventBus } = owl.core;
+./addons/point_of_sale/static/src/js/Screens/ProductScreen/OrderWidget.js:    const { useState, useRef, onPatched } = owl.hooks;
+./addons/point_of_sale/static/src/js/Screens/ProductScreen/ProductsWidgetControlPanel.js:    const { useRef } = owl.hooks;
+./addons/point_of_sale/static/src/js/Screens/ProductScreen/ProductsWidgetControlPanel.js:    const { debounce } = owl.utils;
+./addons/point_of_sale/static/src/js/Screens/ProductScreen/ProductsWidget.js:    const { useState } = owl.hooks;
+./addons/point_of_sale/static/src/js/Screens/ProductScreen/ProductScreen.js:    const { useState } = owl.hooks;
+./addons/point_of_sale/static/src/js/Screens/ScaleScreen/ScaleScreen.js:    const { useState, useExternalListener } = owl.hooks;
+./addons/point_of_sale/static/src/js/Screens/OrderManagementScreen/OrderManagementControlPanel.js:    const { useContext } = owl.hooks;
+./addons/point_of_sale/static/src/js/Screens/OrderManagementScreen/OrderList.js:    const { useState } = owl.hooks;
+./addons/point_of_sale/static/src/js/Screens/OrderManagementScreen/ControlButtons/ReprintReceiptButton.js:    const { useContext } = owl.hooks;
+./addons/point_of_sale/static/src/js/Screens/OrderManagementScreen/ControlButtons/InvoiceButton.js:    const { useContext } = owl.hooks;
+./addons/point_of_sale/static/src/js/Screens/OrderManagementScreen/OrderManagementScreen.js:    const { useContext } = owl.hooks;
+./addons/point_of_sale/static/src/js/Screens/OrderManagementScreen/OrderFetcher.js:    const { EventBus } = owl.core;
+./addons/point_of_sale/static/src/js/Screens/OrderManagementScreen/MobileOrderManagementScreen.js:    const { useState } = owl.hooks;
+./addons/point_of_sale/static/src/js/Screens/ReceiptScreen/ReceiptScreen.js:    const { useRef, useContext } = owl.hooks;
+./addons/point_of_sale/static/src/js/Screens/ClientListScreen/ClientListScreen.js:    const { debounce } = owl.utils;
+./addons/point_of_sale/static/src/js/Screens/ClientListScreen/ClientListScreen.js:            // a persistent object, such as pos, into owl.Observer. But it
+./addons/point_of_sale/static/src/js/PosContext.js:    const { Context } = owl;
+./addons/point_of_sale/static/src/js/PosComponent.js:    const { Component } = owl;
+./addons/point_of_sale/static/src/js/PopupControllerMixin.js:    const { useState } = owl;
+./addons/point_of_sale/static/src/js/models.js:const { Context } = owl;
+./addons/point_of_sale/static/tests/unit/test_ProductScreen.js:    const { xml } = owl.tags;
+./addons/point_of_sale/static/tests/unit/test_ProductScreen.js:    const { useState } = owl;
+./addons/point_of_sale/static/tests/unit/test_popups.js:    const { xml } = owl.tags;
+./addons/point_of_sale/static/tests/unit/helpers/test_main.js:    owl.config.mode = "dev";
+./addons/point_of_sale/static/tests/unit/test_PaymentScreen.js:    const { xml } = owl.tags;
+./addons/point_of_sale/static/tests/unit/test_PaymentScreen.js:    const { useState } = owl;
+./addons/point_of_sale/static/tests/unit/test_ChromeWidgets.js:    const { xml } = owl.tags;
+./addons/point_of_sale/static/tests/unit/test_NumberBuffer.js:    const { Component, useState } = owl;
+./addons/point_of_sale/static/tests/unit/test_NumberBuffer.js:    const { xml } = owl.tags;
+./addons/snailmail/static/src/components/snailmail_error_dialog/snailmail_error_dialog.xml:    <t t-name="snailmail.SnailmailErrorDialog" owl="1">
+./addons/snailmail/static/src/components/snailmail_error_dialog/snailmail_error_dialog.js:const { Component } = owl;
+./addons/snailmail/static/src/components/snailmail_error_dialog/snailmail_error_dialog.js:const { useRef } = owl.hooks;
+./addons/snailmail/static/src/components/snailmail_notification_popover/snailmail_notification_popover.xml:    <t t-name="snailmail.SnailmailNotificationPopover" owl="1">
+./addons/snailmail/static/src/components/snailmail_notification_popover/snailmail_notification_popover.js:const { Component } = owl;
+./addons/snailmail/static/src/components/message/message.js:const { useState } = owl;
+./addons/google_spreadsheet/static/src/xml/addtospreadsheet.xml:    <t t-name="AddToGoogleSpreadsheetMenu" owl="1">
+./addons/website_livechat/static/src/components/visitor_banner/visitor_banner.js:const { Component } = owl;
+./addons/website_livechat/static/src/components/visitor_banner/visitor_banner.xml:    <t t-name="website_livechat.VisitorBanner" owl="1">
+./addons/mail/static/src/widgets/form_renderer/form_renderer.js:        owl.Component.env.bus.off('mail.thread:promptAddFollower-closed', this);
+./addons/mail/static/src/widgets/form_renderer/form_renderer.js:            owl.Component.env.bus.on('mail.thread:promptAddFollower-closed', this, ev => this.trigger_up('reload'));
+./addons/mail/static/src/widgets/discuss/discuss.js:const { Component } = owl;
+./addons/mail/static/src/utils/test_utils.js:const { Component } = owl;
+./addons/mail/static/src/utils/test_utils.js:    const requestAnimationFrame = owl.Component.scheduler.requestAnimationFrame;
+./addons/mail/static/src/utils/test_utils.js:    const stop = owl.Component.scheduler.stop;
+./addons/mail/static/src/utils/test_utils.js:    owl.Component.scheduler.stop = function () {
+./addons/mail/static/src/xml/activity_view.xml:<t t-name="mail.ActivityViewHeader" owl="1">
+./addons/mail/static/src/xml/activity_view.xml:<t t-name="mail.ActivityViewBody" owl="1">
+./addons/mail/static/src/xml/activity_view.xml:<t t-name="mail.ActivityViewRow" owl="1">
+./addons/mail/static/src/xml/activity_view.xml:<t t-name="mail.ActivityViewCell" owl="1">
+./addons/mail/static/src/xml/activity_view.xml:<t t-name="mail.ActivityViewFooter" owl="1">
+./addons/mail/static/src/xml/activity_view.xml:<div t-name="mail.ActivityRenderer" class="o_activity_view" owl="1">
+./addons/mail/static/src/components/attachment_viewer/attachment_viewer.js:const { Component, QWeb } = owl;
+./addons/mail/static/src/components/attachment_viewer/attachment_viewer.js:const { useRef } = owl.hooks;
+./addons/mail/static/src/components/attachment_viewer/attachment_viewer.xml:    <t t-name="mail.AttachmentViewer" owl="1">
+./addons/mail/static/src/components/editable_text/editable_text.js:const { Component } = owl;
+./addons/mail/static/src/components/editable_text/editable_text.xml:    <t t-name="mail.EditableText" owl="1">
+./addons/mail/static/src/components/drop_zone/drop_zone.js:const { Component, useState } = owl;
+./addons/mail/static/src/components/drop_zone/drop_zone.xml:    <t t-name="mail.DropZone" owl="1">
+./addons/mail/static/src/components/autocomplete_input/autocomplete_input.js:const { Component } = owl;
+./addons/mail/static/src/components/autocomplete_input/autocomplete_input.xml:    <t t-name="mail.AutocompleteInput" owl="1">
+./addons/mail/static/src/components/composer_suggestion/composer_suggestion.js:const { Component } = owl;
+./addons/mail/static/src/components/composer_suggestion/composer_suggestion.xml:    <t t-name="mail.ComposerSuggestion" owl="1">
+./addons/mail/static/src/components/message_author_prefix/message_author_prefix.js:const { Component } = owl;
+./addons/mail/static/src/components/message_author_prefix/message_author_prefix.xml:    <t t-name="mail.MessageAuthorPrefix" owl="1">
+./addons/mail/static/src/components/mobile_messaging_navbar/mobile_messaging_navbar.js:const { Component } = owl;
+./addons/mail/static/src/components/mobile_messaging_navbar/mobile_messaging_navbar.xml:    <t t-name="mail.MobileMessagingNavbar" owl="1">
+./addons/mail/static/src/components/discuss_sidebar_item/discuss_sidebar_item.xml:    <t t-name="mail.DiscussSidebarItem" owl="1">
+./addons/mail/static/src/components/discuss_sidebar_item/discuss_sidebar_item.js:const { Component } = owl;
+./addons/mail/static/src/components/thread_typing_icon/thread_typing_icon.js:const { Component } = owl;
+./addons/mail/static/src/components/thread_typing_icon/thread_typing_icon.xml:    <t t-name="mail.ThreadTypingIcon" owl="1">
+./addons/mail/static/src/components/chat_window_manager/chat_window_manager.js:const { Component } = owl;
+./addons/mail/static/src/components/chat_window_manager/chat_window_manager.xml:    <t t-name="mail.ChatWindowManager" owl="1">
+./addons/mail/static/src/components/dialog/dialog.xml:    <t t-name="mail.Dialog" owl="1">
+./addons/mail/static/src/components/dialog/dialog.js:const { Component } = owl;
+./addons/mail/static/src/components/dialog/dialog.js:const { useRef } = owl.hooks;
+./addons/mail/static/src/components/chat_window/chat_window.xml:    <t t-name="mail.ChatWindow" owl="1">
+./addons/mail/static/src/components/chat_window/chat_window.js:const { Component } = owl;
+./addons/mail/static/src/components/chat_window/chat_window.js:const { useRef } = owl.hooks;
+./addons/mail/static/src/components/thread_icon/thread_icon.xml:    <t t-name="mail.ThreadIcon" owl="1">
+./addons/mail/static/src/components/thread_icon/thread_icon.js:const { Component } = owl;
+./addons/mail/static/src/components/attachment_box/attachment_box.js:const { Component } = owl;
+./addons/mail/static/src/components/attachment_box/attachment_box.js:const { useRef } = owl.hooks;
+./addons/mail/static/src/components/attachment_box/attachment_box.xml:    <t t-name="mail.AttachmentBox" owl="1">
+./addons/mail/static/src/components/notification_request/notification_request.js:const { Component } = owl;
+./addons/mail/static/src/components/notification_request/notification_request.xml:    <t t-name="mail.NotificationRequest" owl="1">
+./addons/mail/static/src/components/chatter_container/chatter_container.xml:    <t t-name="mail.ChatterContainer" owl="1">
+./addons/mail/static/src/components/chatter_container/chatter_container.js:const { Component } = owl;
+./addons/mail/static/src/components/attachment_list/attachment_list.js:const { Component } = owl;
+./addons/mail/static/src/components/attachment_list/attachment_list.xml:    <t t-name="mail.AttachmentList" owl="1">
+./addons/mail/static/src/components/discuss_sidebar/discuss_sidebar.xml:    <t t-name="mail.DiscussSidebar" owl="1">
+./addons/mail/static/src/components/discuss_sidebar/discuss_sidebar.js:const { Component } = owl;
+./addons/mail/static/src/components/discuss_sidebar/discuss_sidebar.js:const { useRef } = owl.hooks;
+./addons/mail/static/src/components/follower/follower.js:const { Component } = owl;
+./addons/mail/static/src/components/follower/follower.xml:    <t t-name="mail.Follower" owl="1">
+./addons/mail/static/src/components/partner_im_status_icon/partner_im_status_icon.xml:    <t t-name="mail.PartnerImStatusIcon" owl="1">
+./addons/mail/static/src/components/partner_im_status_icon/partner_im_status_icon.js:const { Component } = owl;
+./addons/mail/static/src/components/notification_popover/notification_popover.js:const { Component } = owl;
+./addons/mail/static/src/components/notification_popover/notification_popover.xml:    <t t-name="mail.NotificationPopover" owl="1">
+./addons/mail/static/src/components/moderation_reject_dialog/moderation_reject_dialog.xml:    <t t-name="mail.ModerationRejectDialog" owl="1">
+./addons/mail/static/src/components/moderation_reject_dialog/moderation_reject_dialog.js:const { Component, useState } = owl;
+./addons/mail/static/src/components/moderation_reject_dialog/moderation_reject_dialog.js:const { useRef } = owl.hooks;
+./addons/mail/static/src/components/emojis_popover/emojis_popover.xml:    <t t-name="mail.EmojisPopover" owl="1">
+./addons/mail/static/src/components/emojis_popover/emojis_popover.js:const { Component } = owl;
+./addons/mail/static/src/components/message_list/message_list.xml:    <t t-name="mail.MessageList" owl="1">
+./addons/mail/static/src/components/message_list/message_list.xml:    <t t-name="mail.MessageList.loadMore" owl="1">
+./addons/mail/static/src/components/message_list/message_list.js:const { Component } = owl;
+./addons/mail/static/src/components/message_list/message_list.js:const { useRef } = owl.hooks;
+./addons/mail/static/src/components/activity_mark_done_popover/activity_mark_done_popover.xml:    <t t-name="mail.ActivityMarkDonePopover" owl="1">
+./addons/mail/static/src/components/activity_mark_done_popover/activity_mark_done_popover.js:const { Component } = owl;
+./addons/mail/static/src/components/activity_mark_done_popover/activity_mark_done_popover.js:const { useRef } = owl.hooks;
+./addons/mail/static/src/components/file_uploader/file_uploader.js:const { Component } = owl;
+./addons/mail/static/src/components/file_uploader/file_uploader.js:const { useRef } = owl.hooks;
+./addons/mail/static/src/components/file_uploader/file_uploader.js:                    message: owl.utils.escape(error),
+./addons/mail/static/src/components/file_uploader/file_uploader.xml:    <t t-name="mail.FileUploader" owl="1">
+./addons/mail/static/src/components/thread_needaction_preview/thread_needaction_preview.js:const { Component } = owl;
+./addons/mail/static/src/components/thread_needaction_preview/thread_needaction_preview.js:const { useRef } = owl.hooks;
+./addons/mail/static/src/components/thread_needaction_preview/thread_needaction_preview.xml:    <t t-name="mail.ThreadNeedactionPreview" owl="1">
+./addons/mail/static/src/components/moderation_discard_dialog/moderation_discard_dialog.js:const { Component } = owl;
+./addons/mail/static/src/components/moderation_discard_dialog/moderation_discard_dialog.js:const { useRef } = owl.hooks;
+./addons/mail/static/src/components/moderation_discard_dialog/moderation_discard_dialog.xml:    <t t-name="mail.ModerationDiscardDialog" owl="1">
+./addons/mail/static/src/components/discuss_mobile_mailbox_selection/discuss_mobile_mailbox_selection.xml:    <t t-name="mail.DiscussMobileMailboxSelection" owl="1">
+./addons/mail/static/src/components/discuss_mobile_mailbox_selection/discuss_mobile_mailbox_selection.js:const { Component } = owl;
+./addons/mail/static/src/components/attachment/attachment.js:const { Component } = owl;
+./addons/mail/static/src/components/attachment/attachment.xml:    <t t-name="mail.Attachment" owl="1">
+./addons/mail/static/src/components/composer/composer.js:const { Component } = owl;
+./addons/mail/static/src/components/composer/composer.js:const { useRef } = owl.hooks;
+./addons/mail/static/src/components/composer/composer.xml:    <t t-name="mail.Composer" owl="1">
+./addons/mail/static/src/components/composer/composer.xml:    <t t-name="mail.Composer.actionButtons" owl="1">
+./addons/mail/static/src/components/notification_group/notification_group.js:const { Component } = owl;
+./addons/mail/static/src/components/notification_group/notification_group.js:const { useRef } = owl.hooks;
+./addons/mail/static/src/components/notification_group/notification_group.xml:    <t t-name="mail.NotificationGroup" owl="1">
+./addons/mail/static/src/components/mail_template/mail_template.js:const { Component } = owl;
+./addons/mail/static/src/components/mail_template/mail_template.xml:    <t t-name="mail.MailTemplate" owl="1">
+./addons/mail/static/src/components/chat_window_hidden_menu/chat_window_hidden_menu.js:const { Component } = owl;
+./addons/mail/static/src/components/chat_window_hidden_menu/chat_window_hidden_menu.js:const { useRef } = owl.hooks;
+./addons/mail/static/src/components/chat_window_hidden_menu/chat_window_hidden_menu.xml:    <t t-name="mail.ChatWindowHiddenMenu" owl="1">
+./addons/mail/static/src/components/notification_list/notification_list.js:const { Component } = owl;
+./addons/mail/static/src/components/notification_list/notification_list.xml:    <t t-name="mail.NotificationList" owl="1">
+./addons/mail/static/src/components/moderation_ban_dialog/moderation_ban_dialog.xml:    <t t-name="mail.ModerationBanDialog" owl="1">
+./addons/mail/static/src/components/moderation_ban_dialog/moderation_ban_dialog.js:const { Component } = owl;
+./addons/mail/static/src/components/moderation_ban_dialog/moderation_ban_dialog.js:const { useRef } = owl.hooks;
+./addons/mail/static/src/components/activity_box/activity_box.js:const { Component } = owl;
+./addons/mail/static/src/components/activity_box/activity_box.xml:    <t t-name="mail.ActivityBox" owl="1">
+./addons/mail/static/src/components/message/message.js:const { Component, useState } = owl;
+./addons/mail/static/src/components/message/message.js:const { useRef } = owl.hooks;
+./addons/mail/static/src/components/message/message.xml:    <t t-name="mail.Message" owl="1">
+./addons/mail/static/src/components/message_seen_indicator/message_seen_indicator.xml:    <t t-name="mail.MessageSeenIndicator" owl="1">
+./addons/mail/static/src/components/message_seen_indicator/message_seen_indicator.js:const { Component } = owl;
+./addons/mail/static/src/components/notification_alert/notification_alert.js:const { Component } = owl;
+./addons/mail/static/src/components/notification_alert/notification_alert.xml:    <t t-name="mail.NotificationAlert" owl="1">
+./addons/mail/static/src/components/composer_suggestion_list/composer_suggestion_list.js:const { Component } = owl;
+./addons/mail/static/src/components/composer_suggestion_list/composer_suggestion_list.xml:    <t t-name="mail.ComposerSuggestionList" owl="1">
+./addons/mail/static/src/components/dialog_manager/dialog_manager.js:const { Component } = owl;
+./addons/mail/static/src/components/dialog_manager/dialog_manager.xml:    <t t-name="mail.DialogManager" owl="1">
+./addons/mail/static/src/components/thread_view/thread_view.js:const { Component } = owl;
+./addons/mail/static/src/components/thread_view/thread_view.js:const { useRef } = owl.hooks;
+./addons/mail/static/src/components/thread_view/thread_view.xml:    <t t-name="mail.ThreadView" owl="1">
+./addons/mail/static/src/components/follow_button/follow_button.js:const { Component } = owl;
+./addons/mail/static/src/components/follow_button/follow_button.js:const { useState } = owl.hooks;
+./addons/mail/static/src/components/follow_button/follow_button.xml:    <t t-name="mail.FollowButton" owl="1">
+./addons/mail/static/src/components/chatter/chatter.js:const { Component } = owl;
+./addons/mail/static/src/components/chatter/chatter.js:const { useRef } = owl.hooks;
+./addons/mail/static/src/components/chatter/chatter.xml:    <t t-name="mail.Chatter" owl="1">
+./addons/mail/static/src/components/composer_suggested_recipient_list/composer_suggested_recipient_list.xml:    <t t-name="mail.ComposerSuggestedRecipientList" owl="1">
+./addons/mail/static/src/components/composer_suggested_recipient_list/composer_suggested_recipient_list.js:const { Component } = owl;
+./addons/mail/static/src/components/composer_suggested_recipient_list/composer_suggested_recipient_list.js:const { useState } = owl.hooks;
+./addons/mail/static/src/components/discuss/discuss.xml:    <t t-name="mail.Discuss" owl="1">
+./addons/mail/static/src/components/discuss/discuss.xml:    <t t-name="mail.Discuss.content" owl="1">
+./addons/mail/static/src/components/discuss/discuss.js:const { Component } = owl;
+./addons/mail/static/src/components/discuss/discuss.js:const { useRef } = owl.hooks;
+./addons/mail/static/src/components/discuss/discuss.js:                owl.utils.escape(this.discuss.replyingToMessage.originThread.displayName)
+./addons/mail/static/src/components/thread_textual_typing_status/thread_textual_typing_status.xml:    <t t-name="mail.ThreadTextualTypingStatus" owl="1">
+./addons/mail/static/src/components/thread_textual_typing_status/thread_textual_typing_status.js:const { Component } = owl;
+./addons/mail/static/src/components/follower_subtype_list/follower_subtype_list.xml:    <t t-name="mail.FollowerSubtypeList" owl="1">
+./addons/mail/static/src/components/follower_subtype_list/follower_subtype_list.js:const { Component, QWeb } = owl;
+./addons/mail/static/src/components/follower_list_menu/follower_list_menu.xml:    <t t-name="mail.FollowerListMenu" owl="1">
+./addons/mail/static/src/components/follower_list_menu/follower_list_menu.js:const { Component } = owl;
+./addons/mail/static/src/components/follower_list_menu/follower_list_menu.js:const { useRef, useState } = owl.hooks;
+./addons/mail/static/src/components/thread_preview/thread_preview.js:const { Component } = owl;
+./addons/mail/static/src/components/thread_preview/thread_preview.js:const { useRef } = owl.hooks;
+./addons/mail/static/src/components/thread_preview/thread_preview.xml:    <t t-name="mail.ThreadPreview" owl="1">
+./addons/mail/static/src/components/messaging_menu/messaging_menu.xml:    <t t-name="mail.MessagingMenu" owl="1">
+./addons/mail/static/src/components/messaging_menu/messaging_menu.xml:    <t t-name="mail.MessagingMenu.newMessageButton" owl="1">
+./addons/mail/static/src/components/messaging_menu/messaging_menu.js:const { Component } = owl;
+./addons/mail/static/src/components/messaging_menu/messaging_menu.js:const { useRef } = owl.hooks;
+./addons/mail/static/src/components/chat_window_header/chat_window_header.xml:    <t t-name="mail.ChatWindowHeader" owl="1">
+./addons/mail/static/src/components/chat_window_header/chat_window_header.js:const { Component } = owl;
+./addons/mail/static/src/components/composer_text_input/composer_text_input.xml:    <t t-name="mail.ComposerTextInput" owl="1">
+./addons/mail/static/src/components/composer_text_input/composer_text_input.js:const { Component } = owl;
+./addons/mail/static/src/components/composer_text_input/composer_text_input.js:const { useRef } = owl.hooks;
+./addons/mail/static/src/components/composer_suggested_recipient/composer_suggested_recipient.js:const { Component } = owl;
+./addons/mail/static/src/components/composer_suggested_recipient/composer_suggested_recipient.js:const { useRef } = owl.hooks;
+./addons/mail/static/src/components/composer_suggested_recipient/composer_suggested_recipient.xml:    <t t-name="mail.ComposerSuggestedRecipient" owl="1">
+./addons/mail/static/src/components/activity/activity_tests.js:const { Component, tags: { xml } } = owl;
+./addons/mail/static/src/components/activity/activity.js:const { Component, useState } = owl;
+./addons/mail/static/src/components/activity/activity.js:const { useRef } = owl.hooks;
+./addons/mail/static/src/components/activity/activity.xml:    <t t-name="mail.Activity" owl="1">
+./addons/mail/static/src/components/follower_subtype/follower_subtype.xml:    <t t-name="mail.FollowerSubtype" owl="1">
+./addons/mail/static/src/components/follower_subtype/follower_subtype.js:const { Component } = owl;
+./addons/mail/static/src/components/chatter_topbar/chatter_topbar.js:const { Component } = owl;
+./addons/mail/static/src/components/chatter_topbar/chatter_topbar.xml:    <t t-name="mail.ChatterTopbar" owl="1">
+./addons/mail/static/src/models/messaging_notification_handler/messaging_notification_handler.js:                const escapedTitle = owl.utils.escape(data.title);
+./addons/mail/static/src/models/messaging_notification_handler/messaging_notification_handler.js:                const escapedMessage = owl.utils.escape(data.message);
+./addons/mail/static/src/models/messaging_notification_handler/messaging_notification_handler.js:                        owl.utils.escape(channel.name)
+./addons/mail/static/src/models/messaging_notification_handler/messaging_notification_handler.js:                    owl.utils.escape(correspondent.name)
+./addons/mail/static/src/models/messaging_notification_handler/messaging_notification_handler.js:                    owl.utils.escape(channel.name)
+./addons/mail/static/src/models/messaging_notification_handler/messaging_notification_handler.js:                    const channelName = owl.utils.escape(channel.displayName);
+./addons/mail/static/src/models/messaging_notification_handler/messaging_notification_handler.js:                        owl.utils.escape(authorName),
+./addons/mail/static/src/models/messaging_notification_handler/messaging_notification_handler.js:                    notificationTitle = owl.utils.escape(authorName);
+./addons/mail/static/src/models/composer/composer.js:                const matchName = owl.utils.escape(match.substring(1).replace(new RegExp('\u00a0', 'g'), ' '));
+./addons/mail/static/src/models/discuss/discuss.js:            const escapedValue = owl.utils.escape(value);
+./addons/mail/static/src/models/discuss/discuss.js:                let escapedName = owl.utils.escape(data.name);
+./addons/mail/static/src/models/discuss/discuss.js:            // XDU FIXME could use a component but be careful with owl's
+./addons/mail/static/src/models/discuss/discuss.js:            const value = owl.utils.escape(req.term);
+./addons/mail/static/src/env/test_env.js:const { Store } = owl;
+./addons/mail/static/src/env/test_env.js:const { EventBus } = owl.core;
+./addons/mail/static/src/component_hooks/use_store/use_store.js: * Similar to owl.hooks.useStore but to decide if a new render has to be done it
+./addons/mail/static/src/component_hooks/use_store/use_store.js: *   with 1st parameter extended as store state. @see owl.hooks.useStore
+./addons/mail/static/src/component_hooks/use_store/use_store.js: * @param {object} [options={}] @see owl.hooks.useStore
+./addons/mail/static/src/component_hooks/use_store/use_store.js: * @returns {Proxy} @see owl.hooks.useStore
+./addons/mail/static/src/component_hooks/use_store/use_store.js:    const store = options.store || owl.Component.current.env.store;
+./addons/mail/static/src/component_hooks/use_store/use_store.js:    return owl.hooks.useStore(extendedSelector, Object.assign({}, options, {
+./addons/mail/static/src/component_hooks/use_store/use_store_tests.js:const { Component, QWeb, Store } = owl;
+./addons/mail/static/src/component_hooks/use_store/use_store_tests.js:const { useGetters } = owl.hooks;
+./addons/mail/static/src/component_hooks/use_store/use_store_tests.js:const { xml } = owl.tags;
+./addons/mail/static/src/component_hooks/use_refs/use_refs.js:const { Component } = owl;
+./addons/mail/static/src/component_hooks/use_drag_visible_dropzone/use_drag_visible_dropzone.js:const { useRef, useState, onMounted, onWillUnmount } = owl.hooks;
+./addons/mail/static/src/js/views/activity/activity_renderer.js:const { useState } = owl.hooks;
+./addons/mail/static/src/js/main.js:const { Store } = owl;
+./addons/mail/static/src/js/main.js:const { EventBus } = owl.core;
+./addons/mail/static/src/js/many2one_avatar_user.js:    const { Component } = owl;
+./addons/mail/static/src/js/core/translation.js:const { Component } = owl;
+./addons/mail/static/src/js/systray/systray_activity_menu.js:const { Component } = owl;
