@@ -174,3 +174,9 @@ owl="1"
 
 它把 model 的資料放到 props 之中，然後在 template 中取用 props 使用 QWEB 做為 client side template 來產生頁面。所以和舊的一樣，使用 qweb 做為 client side template。只是把原先的 context 用 owl 的 props 取代。讓整個框架看起來比較現代化。
 
+OWL 用 useStore hook 來做狀態管理的動作。當 state 改變時，所有的 components 都可以監聽關的 state 並重新更新 DOM 的內容。達成 "react"的動作。所以 OWL 並不會直接對資料庫的改變做反應，而是要變資料庫的改變觸發一些 actions，然後由 action 來改變 state，最後才導至 QWEB 模版重新產生 DOM 造成畫面更新。
+
+在抓取data還是必需依賴qweb，這樣才能使用xml繼承文件系統，這部份應該是不會動了
+
+https://alanhou.org/odoo-14-owl/
+qweb好處就是可以繼承修改嘛
