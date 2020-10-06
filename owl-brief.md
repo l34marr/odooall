@@ -172,3 +172,5 @@ addons/web/static/src/xml/base.xml
 
 owl="1"
 
+它把 model 的資料放到 props 之中，然後在 template 中取用 props 使用 QWEB 做為 client side template 來產生頁面。所以和舊的一樣，使用 qweb 做為 client side template。只是把原先的 context 用 owl 的 props 取代。讓整個框架看起來比較現代化。
+
