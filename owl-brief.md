@@ -170,6 +170,8 @@ addons/web/static/src/xml/base.xml
 
 == 差異比較 ==
 
+https://youtu.be/IrcQf4hgjtw 過往稱為 Widget 的程式碼，在 OWL 架構裡會被稱為 Component，在持續的改版過程中，議題之一是 Asset Management 也就是載入 Template 的新舊方式要能共存，新舊的程式寫法慣例也不同。
+
 OWL 只是框架，需要和一個能產生 HTML 的工具合作，它是用來取代原本的 Widget 系統，在 QWEB 中可以同時用舊有 Widget 元件，也可以用新的 OWL 元件，所以沒有混用的問題。
 
 可以參考 AbstractFieldOwl 做法，考慮用 container 方式做，把 template 內容定義成一個 widget 再透過 OWL component 去操作這個 widget。
