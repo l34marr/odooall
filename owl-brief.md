@@ -170,6 +170,12 @@ addons/web/static/src/xml/base.xml
 
 == 差異比較 ==
 
+OWL 只是框架，需要和一個能產生 HTML 的工具合作，它是用來取代原本的 Widget 系統，在 QWEB 中可以同時用舊有 Widget 元件，也可以用新的 OWL 元件，所以沒有混用的問題。
+
+可以參考 AbstractFieldOwl 做法，考慮用 container 方式做，把 template 內容定義成一個 widget 再透過 OWL component 去操作這個 widget。
+
+v14 改用 this.env.models 看來 RPC 的用法都改了。
+
 owl="1"
 
 它把 model 的資料放到 props 之中，然後在 template 中取用 props 使用 QWEB 做為 client side template 來產生頁面。所以和舊的一樣，使用 qweb 做為 client side template。只是把原先的 context 用 owl 的 props 取代。讓整個框架看起來比較現代化。
