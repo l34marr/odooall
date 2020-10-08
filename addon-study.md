@@ -16,3 +16,19 @@ crm_lead.py
 
 只剩 360d 公司
 
+在 Template ID: website.homepage 的 <div id="wrap" class="oe_structure oe_empty"/> 下方新增 JavaScript 嵌入碼，可以正常生效。
+
+<t name="Homepage" t-name="website.homepage1">
+        <t t-call="website.layout">
+            <t t-set="pageName" t-value="'homepage'"/>
+            <div id="wrap" class="oe_structure oe_empty"/>
+<div id="comboWidgetContainer"></div>
+<script src="https://api.caas.tw/Widget/Layout.js"></script>
+<script>
+   var widget = new OnePage.Layout({"Container":"comboWidgetContainer","Id":337,"Key":"rZhiGTJWK5iHHL5yOQGRcILZDIaYwh2c2FEY0u8a65k%3d","EmbeddedType":"OnePage.EmbeddedType.div","Language":"zh-TW","LayoutId":3});
+</script>
+<hr></hr>
+            </t>
+        </t>
+
+website.homepage 是在 https://github.com/odoo/odoo/blob/13.0/addons/website/models/website.py#L207 由 `_bootstrap_homepage()` 產生，並會指定 priority 值。
