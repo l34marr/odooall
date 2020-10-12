@@ -1,3 +1,7 @@
+# 網域設定
+
+https://www.odoo.com/blog/odoo-news-5/post/get-your-ssl-certificate-automatically-on-odoo-558 1. 在 DNS entry 寫 CNAME 2. 在 Odoo 設定主機名稱 3. 使用 https://odoo.mysite.com 之類的網址
+
 # 資料庫復原
 
 database restore error access denied 通常代表 Master Password 錯誤，把 odoo-server.conf 的 admin_password 修改後就可以匯入。
