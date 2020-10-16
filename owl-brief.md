@@ -188,3 +188,16 @@ OWL 用 useStore hook 來做狀態管理的動作。當 state 改變時，所有
 
 https://alanhou.org/odoo-14-owl/
 qweb好處就是可以繼承修改嘛
+
+http://youtube.com/watch?v=dkj4s_akje0 CybroSys, Console debug
+app.js
+
+    const { Componet } = owl;
+    const { xml } = owl.tags;
+    const { whenReady } = owl.utils;
+    const { useState } = owl.hooks;
+    
+    // OWL Components
+    
+https://medium.com/@alle.aldine/how-to-show-list-of-events-created-in-odoo-erp-shows-in-reactjs-website-52d847fa86e
+https://medium.com/@alle.aldine/how-to-build-a-blog-with-gatsby-and-odoo-a54aa6921a1e
