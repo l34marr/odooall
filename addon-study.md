@@ -205,3 +205,13 @@ crm_lead.py
         </t>
 
 website.homepage 是在 https://github.com/odoo/odoo/blob/13.0/addons/website/models/website.py#L207 由 `_bootstrap_homepage()` 產生，並會指定 priority 值。
+
+# OCA
+
+[Contributing Guideline](http://github.com/OCA/odoo-community.org/blob/master/website/Contribution/CONTRIBUTING.rst)
+模組名稱開頭與其代表的角色
+base_: 其他模組的基礎
+l10n_: 在地化的模組
+crm_partner_firstname: 整合 Odoo CRM 與 OCA partner_firstname 模組
+
+可利用 oca-gen-addon-readme 自動產生說明文件
