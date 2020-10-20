@@ -215,3 +215,19 @@ l10n_: 在地化的模組
 crm_partner_firstname: 整合 Odoo CRM 與 OCA partner_firstname 模組
 
 可利用 oca-gen-addon-readme 自動產生說明文件
+
+# Odoo Experience
+
+- [An In-depth Journey into Odoo's ORM](https://www.odoo.com/event/odoo-experience-2020-2020-09-30-2020-10-02-2622/track/an-in-depth-journey-into-odoo-s-orm-3936)
+- [Tutorial: Develop App with Odoo Framework](https://www.odoo.com/event/odoo-experience-2020-2020-09-30-2020-10-01-2622/track/tutorial-develop-an-app-with-the-odoo-framework-3852)
+- [The Right Way to Develop Website & eCommerce Features](https://www.odoo.com/event/odoo-experience-2020-2020-09-30-2020-10-02-2622/track/the-right-way-to-develop-website-ecommerce-features-3846)
+- [How to Use Custom Code to Handle Upgrades](https://www.odoo.com/event/odoo-experience-2020-2020-09-30-2020-10-02-2622/track/how-to-use-custom-code-to-handle-upgrades-3841)
+- [Best Practices in Handling Performance Issues](https://www.odoo.com/event/odoo-experience-2020-2020-09-30-2020-10-02-2622/track/best-practices-in-handling-performance-issues-3857)
+- [Odoo's Test Framework: Learn Best Practices](https://www.odoo.com/event/odoo-experience-2020-2020-09-30-2020-10-02-2622/track/odoo-s-test-framework-learn-best-practices-3844)
+- [Security: Odoo Code Hardening](https://www.odoo.com/event/odoo-experience-2020-2020-09-30-2020-10-02-2622/track/security-odoo-code-hardening-3853)
+- [UX in Business-apps: a-workshop-for-app-developers](https://www.odoo.com/zh_TW/event/odoo-experience-2020-2020-09-30-2020-10-02-2622/track/ux-in-business-apps-a-workshop-for-app-developers-3858)
+- [Running a University with Odoo](https://www.odoo.com/event/odoo-experience-2020-2020-09-30-2020-10-02-2622/track/running-a-university-with-odoo-2058)
+- [Odoo Website: How to Develop Building Blocks](https://www.odoo.com/event/odoo-experience-2020-2020-09-30-2020-10-02-2622/track/odoo-website-how-to-develop-building-blocks-3937)
+- [Building l10n Payroll Structures from the Ground Up](https://www.odoo.com/event/odoo-experience-2020-2020-09-30-2020-10-02-2622/track/building-l10n-payroll-structures-from-the-ground-up-3861)
+- [Empower Your App by Inheriting from Odoo Mixins]()
+- [CRM Workshop: Learn How to Manage Your Pipeline](https://www.odoo.com/event/odoo-experience-2020-2020-09-30-2020-10-02-2622/track/crm-workshop-learn-how-to-manage-your-pipeline-3920) Pipeline Probability Studio Qutation Filter GroupBy Analytics Export Deduplication LeadGeneration
