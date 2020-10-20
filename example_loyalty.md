@@ -1,3 +1,8 @@
+[Tutorial: Develop App with Odoo Framework](https://www.odoo.com/event/odoo-experience-2020-2020-09-30-2020-10-02-2622/track/tutorial-develop-an-app-with-the-odoo-framework-3852)
+[Yannick Tivisse](http://be.linkedin.com/yannick-tivisse-22287064)
+
+https://github.com/tivisse/odooplants
+[l10n_be_hr_payroll: Validate the CP200 different payslips](https://github.com/odoo/odoo/pull/59367)
 
 [The Right Way to Develop Website & eCommerce Features](http://www.odoo.com/event/odoo-experience-2020-2020-09-30-2020-10-02-2622/track/the-right-way-to-develop-website-ecommerce-features-3846)
 
