@@ -231,3 +231,36 @@ crm_partner_firstname: 整合 Odoo CRM 與 OCA partner_firstname 模組
 - [Building l10n Payroll Structures from the Ground Up](https://www.odoo.com/event/odoo-experience-2020-2020-09-30-2020-10-02-2622/track/building-l10n-payroll-structures-from-the-ground-up-3861)
 - [Empower Your App by Inheriting from Odoo Mixins]()
 - [CRM Workshop: Learn How to Manage Your Pipeline](https://www.odoo.com/event/odoo-experience-2020-2020-09-30-2020-10-02-2622/track/crm-workshop-learn-how-to-manage-your-pipeline-3920) Pipeline Probability Studio Qutation Filter GroupBy Analytics Export Deduplication LeadGeneration
+
+
+# Dennis Weekend Tutorials
+
+`_name` 如果更改了 資料庫就會直接更新嗎? 或是需要額外通知系統? 如果有填過資料值 也就是有幾筆舊資料了 那前面的 _name 更新動作會被怎樣影響?
+
+name vs code 常成串套用: _rec_name == record name (PO_# 之類)
+
+event/model event_event.py EventType and EventEvent
+
+Many2one One2many Many2oneReference
+讀完值才進行 `_compute` 要留意執行效率 store=True
+
+
+登入記錄 編輯記錄 可以看到時間歷程嗎? 修改 opportunity 標題後 看到前後改成怎樣
+QWEB id 如何繼承?
+technical 網頁管理介面修改的結果 是否記錄在資料庫裡? 如何清掉 回復成原始設定? 如何匯出 再併進檔案系統的程式碼?
+
+
+如果是匯出，試著把addons_connector關掉，減少可能的錯誤
+可能是這個之類的 https://pypi.org/project/odoo12-addon-connector/
+
+ebsone.com/event/odoo-2020-07-19-20/register
+ORM API, View, Action
+Web Controller:
+
+docker images
+docker search odoo
+docker pull odoo
+docker run -d -e POSTGRES_USER=odoo
+docker start -a odoo
+db.sh [docker_script]
+
