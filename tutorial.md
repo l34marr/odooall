@@ -13,8 +13,14 @@
 - [Odoo Website: How to Develop Building Blocks](https://www.odoo.com/event/odoo-experience-2020-2020-09-30-2020-10-02-2622/track/odoo-website-how-to-develop-building-blocks-3937)
 - [Building l10n Payroll Structures from the Ground Up](https://www.odoo.com/event/odoo-experience-2020-2020-09-30-2020-10-02-2622/track/building-l10n-payroll-structures-from-the-ground-up-3861)
 - [Empower Your App by Inheriting from Odoo Mixins](https://www.odoo.com/event/odoo-experience-2020-2020-09-30-2020-10-02-2622/track/empower-your-app-by-inheriting-from-odoo-mixins-3860)
-- [CRM Workshop: Learn How to Manage Your Pipeline](https://www.odoo.com/event/odoo-experience-2020-2020-09-30-2020-10-02-2622/track/crm-workshop-learn-how-to-manage-your-pipeline-3920) Pipeline Probability Studio Qutation Filter GroupBy Analytics Export Deduplication LeadGeneration
+- [CRM Workshop: Learn How to Manage Your Pipeline](https://www.odoo.com/event/odoo-experience-2020-2020-09-30-2020-10-02https://www.odoo.com/event/odoo-experience-2020-2020-09-30-2020-10-02-2622/track/odoo-spreadsheet-advanced-features-3915-2622/track/crm-workshop-learn-how-to-manage-your-pipeline-3920) Pipeline Probability Studio Qutation Filter GroupBy Analytics Export Deduplication LeadGeneration
+- [Say Goodbye to Excel with the New Built-in Odoo Spreadsheets](https://www.odoo.com/event/odoo-experience-2020-2020-09-30-2020-10-02-2622/track/say-goodbye-to-excel-with-the-new-built-in-odoo-spreadsheets-3872) by Brett Hydeman : Better_Business_Intelligence Pivot_Table Commission
+- [Odoo Spreadsheet: Advanced Features](https://www.odoo.com/event/odoo-experience-2020-2020-09-30-2020-10-02-2622/track/odoo-spreadsheet-advanced-features-3915) by Nicolas Bassine : Accounting_Pivot Re-insert_pivot
+- [Sales Commissions and Dashboard with Odoo Spreadsheet](https://www.odoo.com/event/odoo-experience-2020-2020-09-30-2020-10-02-2622/track/sales-commissions-and-dashboard-with-odoo-spreadsheet-3912) by Devarsh Modi : Sharing 初期只有部分功能
+- [Workshop: Budgets and Forecasts with Odoo Spreadsheet](https://www.odoo.com/event/odoo-experience-2020-2020-09-30-2020-10-02-2622/track/workshop-budgets-and-forecasts-with-odoo-spreadsheet-3911) by Eva Lombardo
 
+
+[Richard Shall](http://www.youtube.com/channel/UCB9cSQS-aB31JXLRw9zQ7-Q): Excel Migration Script 先有測試版本 會再正式推出給昇級用戶
 
 # Dennis Weekend Tutorials
 
