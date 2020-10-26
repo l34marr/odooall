@@ -1,6 +1,6 @@
 # Odoo Experience
 
-- [An In-depth Journey into Odoo's ORM](https://www.odoo.com/event/odoo-experience-2020-2020-09-30-2020-10-02-2622/track/an-in-depth-journey-into-odoo-s-orm-3936)
+- [An In-depth Journey into Odoo's ORM](https://www.odoo.com/event/odoo-experience-2020-2020-09-30-2020-10-02-2622/track/an-in-depth-journey-into-odoo-s-orm-3936) by Raphael Collet
 - [Tutorial: Develop App with Odoo Framework](https://www.odoo.com/event/odoo-experience-2020-2020-09-30-2020-10-01-2622/track/tutorial-develop-an-app-with-the-odoo-framework-3852)
 - [The Right Way to Develop Website & eCommerce Features](https://www.odoo.com/event/odoo-experience-2020-2020-09-30-2020-10-02-2622/track/the-right-way-to-develop-website-ecommerce-features-3846)
 - [How to Use Custom Code to Handle Upgrades](https://www.odoo.com/event/odoo-experience-2020-2020-09-30-2020-10-02-2622/track/how-to-use-custom-code-to-handle-upgrades-3841)
@@ -13,7 +13,8 @@
 - [Odoo Website: How to Develop Building Blocks](https://www.odoo.com/event/odoo-experience-2020-2020-09-30-2020-10-02-2622/track/odoo-website-how-to-develop-building-blocks-3937)
 - [Building l10n Payroll Structures from the Ground Up](https://www.odoo.com/event/odoo-experience-2020-2020-09-30-2020-10-02-2622/track/building-l10n-payroll-structures-from-the-ground-up-3861)
 - [Empower Your App by Inheriting from Odoo Mixins](https://www.odoo.com/event/odoo-experience-2020-2020-09-30-2020-10-02-2622/track/empower-your-app-by-inheriting-from-odoo-mixins-3860)
-- [CRM Workshop: Learn How to Manage Your Pipeline](https://www.odoo.com/event/odoo-experience-2020-2020-09-30-2020-10-02https://www.odoo.com/event/odoo-experience-2020-2020-09-30-2020-10-02-2622/track/odoo-spreadsheet-advanced-features-3915-2622/track/crm-workshop-learn-how-to-manage-your-pipeline-3920) Pipeline Probability Studio Qutation Filter GroupBy Analytics Export Deduplication LeadGeneration
+- [Preventing user mistakes by using machine learning](https://www.odoo.com/event/odoo-experience-2020-2020-09-30-2020-10-02-2622/track/preventing-user-mistakes-by-using-machine-learning-2171) by Faisal Basar 避免錯誤 員工訓練 學習增長
+- [CRM Workshop: Learn How to Manage Your Pipeline](https://www.odoo.com/event/odoo-experience-2020-2020-09-30-2020-10-02https://www.odoo.com/event/odoo-experience-2020-2020-09-30-2020-10-02-2622/track/odoo-spreadsheet-advanced-features-3915-2622/track/crm-workshop-learn-how-to-manage-your-pipeline-3920) by Nikki Peple Pipeline Probability Studio Qutation Filter GroupBy Analytics Export Deduplication LeadGeneration
 - [Say Goodbye to Excel with the New Built-in Odoo Spreadsheets](https://www.odoo.com/event/odoo-experience-2020-2020-09-30-2020-10-02-2622/track/say-goodbye-to-excel-with-the-new-built-in-odoo-spreadsheets-3872) by Brett Hydeman : Better_Business_Intelligence Pivot_Table Commission
 - [Odoo Spreadsheet: Advanced Features](https://www.odoo.com/event/odoo-experience-2020-2020-09-30-2020-10-02-2622/track/odoo-spreadsheet-advanced-features-3915) by Nicolas Bassine : Accounting_Pivot Re-insert_pivot
 - [Sales Commissions and Dashboard with Odoo Spreadsheet](https://www.odoo.com/event/odoo-experience-2020-2020-09-30-2020-10-02-2622/track/sales-commissions-and-dashboard-with-odoo-spreadsheet-3912) by Devarsh Modi : Sharing 初期只有部分功能
@@ -21,6 +22,8 @@
 
 
 [Richard Shall](http://www.youtube.com/channel/UCB9cSQS-aB31JXLRw9zQ7-Q): Excel Migration Script 先有測試版本 會再正式推出給昇級用戶
+
+Orgis from Czech 雲端服務 徵求 Python 工程師, [Jana Proskova](http://odoois.com/blog/odoo-2/post/why-is-crm-better-than-excel-36) : CRM 比 Spreadsheet 好的原因
 
 # Dennis Weekend Tutorials
 
