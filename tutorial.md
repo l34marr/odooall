@@ -24,6 +24,8 @@
 [Richard Shall](http://www.youtube.com/channel/UCB9cSQS-aB31JXLRw9zQ7-Q): Excel Migration Script 先有測試版本 會再正式推出給昇級用戶
 
 Orgis from Czech 雲端服務 徵求 Python 工程師, [Jana Proskova](http://odoois.com/blog/odoo-2/post/why-is-crm-better-than-excel-36) : CRM 比 Spreadsheet 好的原因
+Odoo model XML github.com/Akretion
+PySPED
 
 # Dennis Weekend Tutorials
 
