@@ -58,3 +58,7 @@ docker run -d -e POSTGRES_USER=odoo
 docker start -a odoo
 db.sh [docker_script]
 
+
+https://learnopenerp.blogspot.com/2018/08/odoo-web-controller.html
+
+
