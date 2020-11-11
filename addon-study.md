@@ -25,7 +25,14 @@ Opportunity 客戶選 Company 時，Contact 裡 Company 的 Opportunity 單獨�
 
 # 資料匯入與匯出
 
-以 CRM 為例，它的範例 crm_lead.xls 可能版本過舊，目前懷疑不適用。
+以 CRM 為例，它的範例 crm_lead.xls 可能版本過舊，目前懷疑不適用。遇到的問題是，範例欄位依序是 External ID, Name, Company Name, Contact Name, Email, Job Position, Phone, Mobile 其中 Name 該對應 Opportunity 而 Company Name 該對應 Customer。至於 Contact Name 之類的欄位，預設都會自動帶入 Contact 裡的值，並不會按照範例欄位的填寫值來匯入。
+
+![CRM Import Sample](img/crm-import-sample.png "CRM Import Sample")
+
+如果 Customer 欄位的值並未出現在 Contact 裡，會出現 No matching record found for name 'SomeOne' in field 'Customer' at row 2 (Opportunity One) → See possible values
+
+
+
 匯入流程測過 CSV 和 XLSX 格式，都成功?
 
 
@@ -179,13 +186,13 @@ crm_lead.py
         domain="['|', ('company_id', '=', False), ('company_id', '=', company_id)]", help="Linked partner (optional)...
     
     partner_id = fields.Many2one('res.partner', string='Customer', tracking=10, index=True,
-        domain="['&', ('name', 'not like', '360d'), ('company_id', '=', company_id)]", help="Linked partner (optional)...
+        domain="['&', ('name', 'not like', 'TSMC'), ('company_id', '=', company_id)]", help="Linked partner (optional)...
 
-搜尋 Customer 時，只會找 360d 的人員。
+搜尋 Customer 時，只會找 TSMC 的人員。
 
-        domain="['&', ('name', 'not like', '360d'), ('company_id', '=', company_id)]",
+        domain="['&', ('name', 'not like', 'TSMC'), ('company_id', '=', company_id)]",
 
-只剩 360d 公司
+只剩 TSMC 公司
 
 # 網頁樣版的復原
 
