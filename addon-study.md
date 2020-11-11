@@ -25,9 +25,15 @@ Opportunity 客戶選 Company 時，Contact 裡 Company 的 Opportunity 單獨�
 
 # 資料匯入與匯出
 
-以 CRM 為例，它的範例 crm_lead.xls 可能版本過舊，目前懷疑不適用。遇到的問題是，範例欄位依序是 External ID, Name, Company Name, Contact Name, Email, Job Position, Phone, Mobile 其中 Name 該對應 Opportunity 而 Company Name 該對應 Customer。至於 Contact Name 之類的欄位，預設都會自動帶入 Contact 裡的值，並不會按照範例欄位的填寫值來匯入。
+以 CRM 為例，它的範例 crm_lead.xls 可能版本過舊，目前懷疑不適用。遇到的問題是，範例欄位依序是 External ID, Name, Company Name, Contact Name, Email, Job Position, Phone, Mobile 其中 Name 該對應 Opportunity 而 Company Name 該對應 Customer。至於 Contact Name 之類的欄位，如果 Customer 匯入值跟 Contact 既有值一致，預設就會自動帶入 Contact 裡包括 Email, Phone 的值，這時匯入的 Email, Phone 並不用被採用，如果 Customer 匯入值並沒有和 Contact 既有值一致，則會匯入 Email (Phone not sure yet) 的值，另外 Notes 欄位值會被匯入及更新之外。
 
-![CRM Import Sample](img/crm-import-sample.png "CRM Import Sample")
+![CRM Import Sample 1](img/crm-import-sample.png "CRM Import Sample 1")
+
+![CRM Import Result 1](img/crm-import-result1.png "CRM Import Result 1")
+
+![CRM Import Sample 2](img/crm-import-example.png "CRM Import Sample 2")
+
+![CRM Import Result 2](img/crm-import-result2.png "CRM Import Result 2")
 
 如果 Customer 欄位的值並未出現在 Contact 裡，會出現 No matching record found for name 'SomeOne' in field 'Customer' at row 2 (Opportunity One) → See possible values
 
