@@ -37,7 +37,11 @@ Opportunity 客戶選 Company 時，Contact 裡 Company 的 Opportunity 單獨�
 
 如果 Customer 欄位的值並未出現在 Contact 裡，會出現 No matching record found for name 'SomeOne' in field 'Customer' at row 2 (Opportunity One) → See possible values
 
+![CRM Import Matching](img/crm-import-matching.png "CRM Import Matching")
 
+在 Technical Mode 檢視欄位技術資訊後，可以明確對應匯入的欄位名稱，並利用 ID (External_ID) 來保持資料一致性。
+
+[![Odoo v12 How to Import Data](https://img.youtube.com/vi/x7C_CLgpHUY/0.jpg)](https://www.youtube.com/watch?v=x7C_CLgpHUY)
 
 匯入流程測過 CSV 和 XLSX 格式，都成功?
 
