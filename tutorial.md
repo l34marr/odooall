@@ -7,7 +7,7 @@
 - [Best Practices in Handling Performance Issues](https://www.odoo.com/event/odoo-experience-2020-2020-09-30-2020-10-02-2622/track/best-practices-in-handling-performance-issues-3857)
 - [Odoo's Test Framework: Learn Best Practices](https://www.odoo.com/event/odoo-experience-2020-2020-09-30-2020-10-02-2622/track/odoo-s-test-framework-learn-best-practices-3844)
 - [Security: Odoo Code Hardening](https://www.odoo.com/event/odoo-experience-2020-2020-09-30-2020-10-02-2622/track/security-odoo-code-hardening-3853)
-- [Best Tools for First-Time Odoo Development](https://www.odoo.com/event/odoo-experience-2020-2020-09-30-2020-10-02-2622/track/best-tools-for-first-time-odoo-development-3862): Tree Visualizer
+- [Best Tools for First-Time Odoo Development](https://www.odoo.com/event/odoo-experience-2020-2020-09-30-2020-10-02-2622/track/best-tools-for-first-time-odoo-development-3862) by Yannick Tivisse: Version Number on odoo.sh, noupdate attribute, IDE, good idea to git merge by hand, Tree Visualizer
 - [UX in Business-apps: a-workshop-for-app-developers](https://www.odoo.com/zh_TW/event/odoo-experience-2020-2020-09-30-2020-10-02-2622/track/ux-in-business-apps-a-workshop-for-app-developers-3858)
 - [Running a University with Odoo](https://www.odoo.com/event/odoo-experience-2020-2020-09-30-2020-10-02-2622/track/running-a-university-with-odoo-2058)
 - [Odoo Website: How to Develop Building Blocks](https://www.odoo.com/event/odoo-experience-2020-2020-09-30-2020-10-02-2622/track/odoo-website-how-to-develop-building-blocks-3937)
@@ -20,6 +20,16 @@
 - [Sales Commissions and Dashboard with Odoo Spreadsheet](https://www.odoo.com/event/odoo-experience-2020-2020-09-30-2020-10-02-2622/track/sales-commissions-and-dashboard-with-odoo-spreadsheet-3912) by Devarsh Modi : Sharing 初期只有部分功能
 - [Workshop: Budgets and Forecasts with Odoo Spreadsheet](https://www.odoo.com/event/odoo-experience-2020-2020-09-30-2020-10-02-2622/track/workshop-budgets-and-forecasts-with-odoo-spreadsheet-3911) by Eva Lombardo
 
+odoo/addons/base/data/res_country_data.xml
+<data noupdate="1">
+  <record id="tw" model="res.country">
+    <field name="name">Taiwan</field>
+    <field name="code">tw</field>
+    <field file="base/static/img/country_flags/tw.png" name="image" type="base64" />
+    <field eval="'%(country_name)s'"
+</data>
+
+[Why the Browser's Debugger is a Backend Developer's Best Friend](http://youtube.com/watch?v=-3UwhYe2HUw)
 
 [Richard Shall](http://www.youtube.com/channel/UCB9cSQS-aB31JXLRw9zQ7-Q): Excel Migration Script 先有測試版本 會再正式推出給昇級用戶
 
