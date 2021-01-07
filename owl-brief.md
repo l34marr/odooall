@@ -201,3 +201,19 @@ app.js
     
 https://medium.com/@alle.aldine/how-to-show-list-of-events-created-in-odoo-erp-shows-in-reactjs-website-52d847fa86e
 https://medium.com/@alle.aldine/how-to-build-a-blog-with-gatsby-and-odoo-a54aa6921a1e
+
+[Odoo Owl Framework](https://www.youtube.com/watch?v=dki4s_akje0): 07:20 使用 npm 來建立專案骨架 10:20 App.env 11:18 Sub Environment 31:00 Demo Incru
+
+  App.env = {
+    _t: myTranslateFunction,
+    user: {},
+    services: {
+    },
+  }
+  
+  class FormComponent extends Component {
+    constructor(parent, props) {
+      super(parent, props);
+      useSubEnv({ mykey: someValue });
+    }
+  }
