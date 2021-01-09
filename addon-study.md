@@ -1,3 +1,7 @@
+# Odoo-bin Shell
+
+  /home/marr/.local/lib/python3.6/site-packages/psycopg2/__init__.py:144: UserWarning: The psycopg2 wheel package will be renamed from release 2.8; in order to keep installing from binary please use "pip install psycopg2-binary" instead. For details see: <http://initd.org/psycopg/docs/install.html#binary-install-from-pypi>.
+
 # 網域設定
 
 https://www.odoo.com/blog/odoo-news-5/post/get-your-ssl-certificate-automatically-on-odoo-558 1. 在 DNS entry 寫 CNAME 2. 在 Odoo 設定主機名稱 3. 使用 https://odoo.mysite.com 之類的網址
