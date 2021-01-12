@@ -1,3 +1,8 @@
+# Install
+
+bitnami install. only show up BITROCK_APPLICATION_ORIGINALNAME page
+Instead of `sudo systemctl start docker` use `sudo /etc/init.d/docker start` [as no systemd in WSL2 for now](http://github.com/MicrosoftDocs/WSL/issues/457).
+
 # Odoo-bin Shell
 
   /home/marr/.local/lib/python3.6/site-packages/psycopg2/__init__.py:144: UserWarning: The psycopg2 wheel package will be renamed from release 2.8; in order to keep installing from binary please use "pip install psycopg2-binary" instead. For details see: <http://initd.org/psycopg/docs/install.html#binary-install-from-pypi>.
