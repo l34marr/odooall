@@ -1,7 +1,7 @@
 # Install
 
-bitnami install. only show up BITROCK_APPLICATION_ORIGINALNAME page
-Instead of `sudo systemctl start docker` use `sudo /etc/init.d/docker start` [as no systemd in WSL2 for now](http://github.com/MicrosoftDocs/WSL/issues/457).
+[bitnami install](http://bitnami.com/stack/odoo/installer). only show up BITROCK_APPLICATION_ORIGINALNAME page
+Instead of `sudo systemctl start docker` use `sudo /etc/init.d/docker start` [as no systemd in WSL2](http://github.com/MicrosoftDocs/WSL/issues/457) [for now](https://github.com/microsoft/WSL/issues/2380).
 
 # Odoo-bin Shell
 
