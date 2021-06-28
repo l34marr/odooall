@@ -27,6 +27,10 @@ Accounting 是核心財會模組，使用 Double-Entry BookKeeping 系統，所�
 
 Choose how to confirm quotations: Electronic signature ; PayPal ; Credit card (via Stripe) ; Other payment acquirer ; Custom Payment instructions
 
+[Online Quotation](https://www.youtube.com/watch?v=hdBCZDXWSDk)
+
+[Pricelists - Multiple](https://www.youtube.com/watch?v=KFe3xKQO_MA)
+
 # Timesheets
 
 [Invoicing for Service Companies](https://www.youtube.com/watch?v=ZTMUeHUZKVI) 服務型公司通常透過 Timesheet 來計費
