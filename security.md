@@ -7,3 +7,5 @@ rc.search_read([('id','=',227)], ['id','name'])
 [{'id': 227, 'name': 'Taiwan'}]
 
 https://stackoverflow.com/questions/44158288/odoo-ir-rule-domain-force-for-group-role-depend-on-state
+
+![OWASP top_10](https://miro.medium.com/max/1050/1*tDFmEQnnm-HimaVWiyRAUw.jpeg)
