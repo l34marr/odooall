@@ -17,3 +17,12 @@ https://github.com/JKE-be/oxp-2020
 這問題又稱為 Modelization 意指是否要建立新 Model 或繼承既有 Model 而且是哪些欄位
 
 # 設定 Controller
+
+# CRM Controller 範例
+
+[addons/crm/controllers/main.py](https://github.com/odoo/odoo/blob/15.0/addons/crm/controllers/main.py#L12)
+
+from odoo import http
+
+class CrmController(http.Controller):
+
