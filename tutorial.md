@@ -69,6 +69,17 @@ docker start -a odoo
 db.sh [docker_script]
 
 
-https://learnopenerp.blogspot.com/2018/08/odoo-web-controller.html
 
+Controller 本身是個 Python Class 程式，透過它可以建立網頁或前端程式與 Odoo Module 進行整合，不再侷限於傳統 Form View 或 Tree View 而能呈現自製畫面。
+
+# CRM Controller 範例
+
+[addons/crm/controllers/main.py](https://github.com/odoo/odoo/blob/15.0/addons/crm/controllers/main.py#L12)
+
+from odoo import http
+
+class CrmController(http.Controller):
+
+
+[整合 chart.js 的舊範例](https://learnopenerp.blogspot.com/2018/08/odoo-web-controller.html)
 
