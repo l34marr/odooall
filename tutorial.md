@@ -49,6 +49,11 @@ Many2one One2many Many2oneReference
 讀完值才進行 `_compute` 要留意執行效率 store=True
 
 
+[name_get()](https://www.cybrosys.com/blog/how-to-use-of-name-get-function-in-odoo) 和 [name_search()](https://www.cybrosys.com/blog/name-search-function-in-odoo-14) 可以在 Many2one  場合快速比對名稱
+
+
+
+
 登入記錄 編輯記錄 可以看到時間歷程嗎? 修改 opportunity 標題後 看到前後改成怎樣
 QWEB id 如何繼承?
 technical 網頁管理介面修改的結果 是否記錄在資料庫裡? 如何清掉 回復成原始設定? 如何匯出 再併進檔案系統的程式碼?

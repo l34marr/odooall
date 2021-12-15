@@ -19,8 +19,3 @@ https://github.com/JKE-be/oxp-2020
 # 設定 Controller
 
 
-# Name Get Function
-
-[name_get()](https://www.cybrosys.com/blog/how-to-use-of-name-get-function-in-odoo) 可以在 Many2one 場合快速比對名稱
-https://www.youtube.com/watch?v=-1r3WSwtqxQ
-
