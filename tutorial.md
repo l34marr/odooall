@@ -37,6 +37,27 @@ Orgis from Czech 雲端服務 徵求 Python 工程師, [Jana Proskova](http://od
 Odoo model XML github.com/Akretion
 PySPED
 
+# Backup Script
+
+```
+#!/bin/bash
+
+BACKUP_DIR=~/backup
+ODOO_DATABASE=mydb
+MASTER_PASS=mypass
+
+mkdir -p ${BACKUP_DIR}
+
+curl -X POST \
+        -F "master_pwd=${MASTER_PASS}" \
+        -F "name=${ODOO_DATABASE}" \
+        -F "backup_format=zip" \
+        -o ${BACKUP_DIR}/${ODOO_DATABASE}-$(date +%F).zip \
+        http://localhost:8069/web/database/backup
+
+# find ${BACKUP_DIR} -type f -mtime +14 -name "${ODOO_DATABASE}-*.zip" -delete
+```
+
 # Dennis Weekend Tutorials
 
 `_name` 如果更改了 資料庫就會直接更新嗎? 或是需要額外通知系統? 如果有填過資料值 也就是有幾筆舊資料了 那前面的 _name 更新動作會被怎樣影響?
