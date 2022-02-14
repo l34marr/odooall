@@ -21,6 +21,7 @@
 - [Workshop: Budgets and Forecasts with Odoo Spreadsheet](https://www.odoo.com/event/odoo-experience-2020-2020-09-30-2020-10-02-2622/track/workshop-budgets-and-forecasts-with-odoo-spreadsheet-3911) by Eva Lombardo
 
 odoo/addons/base/data/res_country_data.xml
+```
 <data noupdate="1">
   <record id="tw" model="res.country">
     <field name="name">Taiwan</field>
@@ -28,6 +29,7 @@ odoo/addons/base/data/res_country_data.xml
     <field file="base/static/img/country_flags/tw.png" name="image" type="base64" />
     <field eval="'%(country_name)s'"
 </data>
+```
 
 [Why the Browser's Debugger is a Backend Developer's Best Friend](http://youtube.com/watch?v=-3UwhYe2HUw)
 
@@ -36,6 +38,8 @@ odoo/addons/base/data/res_country_data.xml
 Orgis from Czech 雲端服務 徵求 Python 工程師, [Jana Proskova](http://odoois.com/blog/odoo-2/post/why-is-crm-better-than-excel-36) : CRM 比 Spreadsheet 好的原因
 Odoo model XML github.com/Akretion
 PySPED
+
+[Customize Website Templates](https://www.cybrosys.com/blog/how-to-customize-odoo-15-website-templates): inheriting or overriding, Portal User Details
 
 # Backup Script
 
