@@ -217,3 +217,6 @@ https://medium.com/@alle.aldine/how-to-build-a-blog-with-gatsby-and-odoo-a54aa69
       useSubEnv({ mykey: someValue });
     }
   }
+
+[Build Owl Project](https://www.youtube.com/watch?v=ZxEhlOoYmWw): Components Hooks
+
