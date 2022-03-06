@@ -41,26 +41,6 @@ PySPED
 
 [Customize Website Templates](https://www.cybrosys.com/blog/how-to-customize-odoo-15-website-templates): inheriting or overriding, Portal User Details
 
-# Backup Script
-
-```
-#!/bin/bash
-
-BACKUP_DIR=~/backup
-ODOO_DATABASE=mydb
-MASTER_PASS=mypass
-
-mkdir -p ${BACKUP_DIR}
-
-curl -X POST \
-        -F "master_pwd=${MASTER_PASS}" \
-        -F "name=${ODOO_DATABASE}" \
-        -F "backup_format=zip" \
-        -o ${BACKUP_DIR}/${ODOO_DATABASE}-$(date +%F).zip \
-        http://localhost:8069/web/database/backup
-
-# find ${BACKUP_DIR} -type f -mtime +14 -name "${ODOO_DATABASE}-*.zip" -delete
-```
 
 # Dennis Weekend Tutorials
 
