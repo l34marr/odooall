@@ -34,6 +34,8 @@ curl -X POST \
         -o ${BACKUP_DIR}/${ODOO_DATABASE}-$(date +%F).zip \
         http://localhost:8069/web/database/backup
 
+# MASTER_PASS can be copied from /etc/odoo-server.conf
+# date +%Y_%m%d_%H%M
 # find ${BACKUP_DIR} -type f -mtime +14 -name "${ODOO_DATABASE}-*.zip" -delete
 ```
 
