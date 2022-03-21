@@ -20,6 +20,24 @@
 - [Sales Commissions and Dashboard with Odoo Spreadsheet](https://www.odoo.com/event/odoo-experience-2020-2020-09-30-2020-10-02-2622/track/sales-commissions-and-dashboard-with-odoo-spreadsheet-3912) by Devarsh Modi : Sharing 初期只有部分功能
 - [Workshop: Budgets and Forecasts with Odoo Spreadsheet](https://www.odoo.com/event/odoo-experience-2020-2020-09-30-2020-10-02-2622/track/workshop-budgets-and-forecasts-with-odoo-spreadsheet-3911) by Eva Lombardo
 
+odoo_install.sh
+```
+< GENERATE_RANDOM_PASSWORD="True"
+---
+> GENERATE_RANDOM_PASSWORD="False"
+42c42
+< ENABLE_SSL="True"
+---
+> ENABLE_SSL="False"
+52,53c52,53
+< WKHTMLTOX_X64=https://github.com/wkhtmltopdf/wkhtmltopdf/releases/download/0.12.5/wkhtmltox_0.12.5-1.trusty_amd64.deb
+< WKHTMLTOX_X32=https://github.com/wkhtmltopdf/wkhtmltopdf/releases/download/0.12.5/wkhtmltox_0.12.5-1.trusty_i386.deb
+---
+> WKHTMLTOX_X64=https://github.com/wkhtmltopdf/wkhtmltopdf/releases/download/0.12.5/wkhtmltox_0.12.5-1.bionic_amd64.deb
+> WKHTMLTOX_X32=https://github.com/wkhtmltopdf/wkhtmltopdf/releases/download/0.12.5/wkhtmltox_0.12.5-1.bionic_i386.deb
+```
+
+
 odoo/addons/base/data/res_country_data.xml
 ```
 <data noupdate="1">
