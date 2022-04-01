@@ -220,3 +220,81 @@ https://medium.com/@alle.aldine/how-to-build-a-blog-with-gatsby-and-odoo-a54aa69
 
 [Build Owl Project](https://www.youtube.com/watch?v=ZxEhlOoYmWw): Components Hooks
 
+
+ Course Contents
+
+What is OWL?
+OWL(Odoo Web Library) is a standalone web framework developed by Odoo SA in order to 
+improve the well known open source ERP Odoo.This framework is mostly written in TypeScript
+and JavaScript.It comes with a combination of all good features from React and VUE, but left the 
+problems of both frameworks behind.OWL is a perfect framework that is developed with Odoo 
+ERP in mind.
+
+Course Objective
+The key objective behind Odoo Technical Training is to literate the Odoo Developers, Partners 
+and other public on OWL (Odoo Web Library) framework. The training envisions sharing how to 
+Build a OWL Project. The training will cover the different aspects of OWL and create a strong 
+knowledge base for attendees.
+
+Duration: 3:00 Hour
+Date: 
+Time: 
+
+Medium: zoom
+
+Training Essentials 
+▪ Passion for Learning Programming
+▪ Basic Programming Knowledge
+▪ Basic Knowledge in MVC Concepts
+▪ Internet Connectivity
+
+Preferred Candidates
+The ideal candidates should be either of the following, however, it isn't limited: 
+1. Odoo Techno Functional Consultants
+2. Odoo Developers
+3. React or Vue Developers
+4. IT Administrator
+5. IT Support
+
+Course Content
+1. Introduction
+2. Agenda
+3. Setting Up an OWL Project 
+4. OWL Components
+  a. Reactive System
+  b. Properties
+  c. Static Properties
+  d. Methods
+  e. Lifecycle
+  f. Root Component
+  g. Composition
+  h. Form Input Bindings
+  i. References
+  j. Dynamic sub components
+  k. Functional Components
+  l. SVG components
+5. Environment
+6. Context
+  a. Rendering Components
+  b. Semantics
+  c. Asynchronous Rendering
+7. Store
+8. Qweb
+  a. QWeb Templating Language
+  b. QWeb Engine
+9. Tags
+10. Slots
+11. Event Handling
+  a. Event Handling
+  b. Business DOM Events
+  c. Inline Event Handlers
+  d. Modifiers
+12. Hooks
+  a. OWL Hooks
+  b. Making customized hooks
+13. Router
+14. Concurrency Model
+15. Error Handling
+16. Utils
+17. Animations
+
