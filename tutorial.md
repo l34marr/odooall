@@ -4,7 +4,7 @@
 - [Tutorial: Develop App with Odoo Framework](https://www.odoo.com/event/odoo-experience-2020-2020-09-30-2020-10-01-2622/track/tutorial-develop-an-app-with-the-odoo-framework-3852)
 - [The Right Way to Develop Website & eCommerce Features](https://www.odoo.com/event/odoo-experience-2020-2020-09-30-2020-10-02-2622/track/the-right-way-to-develop-website-ecommerce-features-3846)
 - [How to Use Custom Code to Handle Upgrades](https://www.odoo.com/event/odoo-experience-2020-2020-09-30-2020-10-02-2622/track/how-to-use-custom-code-to-handle-upgrades-3841)
-- [Best Practices in Handling Performance Issues](https://www.odoo.com/event/odoo-experience-2020-2020-09-30-2020-10-02-2622/track/best-practices-in-handling-performance-issues-3857)
+- [Best Practices in Handling Performance Issues](https://www.odoo.com/event/odoo-experience-2020-2020-09-30-2020-10-02-2622/track/best-practices-in-handling-performance-issues-3857) Know the Deployment Info $ inxi -Fxz $ hwinfo --short
 - [Odoo's Test Framework: Learn Best Practices](https://www.odoo.com/event/odoo-experience-2020-2020-09-30-2020-10-02-2622/track/odoo-s-test-framework-learn-best-practices-3844)
 - [Security: Odoo Code Hardening](https://www.odoo.com/event/odoo-experience-2020-2020-09-30-2020-10-02-2622/track/security-odoo-code-hardening-3853)
 - [Best Tools for First-Time Odoo Development](https://www.odoo.com/event/odoo-experience-2020-2020-09-30-2020-10-02-2622/track/best-tools-for-first-time-odoo-development-3862) by Yannick Tivisse: Version Number on odoo.sh, noupdate attribute, IDE, good idea to git merge by hand, Tree Visualizer
@@ -58,6 +58,15 @@ Odoo model XML github.com/Akretion
 PySPED
 
 [Customize Website Templates](https://www.cybrosys.com/blog/how-to-customize-odoo-15-website-templates): inheriting or overriding, Portal User Details
+
+# Performance Issues - Profiler
+
+* Important Details in Logs
+
+$ grep -n -B15 -A5 'CPU time' ./odoo/log
+$ grep -n -B15 -A5 'memory limit' ./odoo/log
+$ grep -n -B15 -A5 'SERIALIZATION' ./odoo/log
+$ cat odoo.log | grep -v longpolling | awk '{print $NF-1 " " $0}' | sort -nr | less
 
 
 # Dennis Weekend Tutorials
